@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset ="ISO-8859-1" >
+    <title>LIST CATEGORIES</title>
+
+    <link rel="stylesheet" type="text/css" th:href="@{/webjars/bootstrap/css/bootstrap.min.css}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="../style/style.css">
+
+</head>
+<!--<style>-->
+<!--    table {-->
+<!--        border: 2px solid black;-->
+<!--        border-collapse: collapse;-->
+<!--        max-width: 1000px;-->
+<!--        width: 100%;-->
+<!--    }-->
+<!--    td {-->
+<!--        border: 2px solid black;-->
+<!--    }-->
+<!--    .good{-->
+<!--        background-color: goldenrod;-->
+
+<!--    }-->
+<!--</style>-->
+<body>
+<link rel="stylesheet" href="../static/style.css" th:href="@{style.css}">
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <!-- Brand -->
+    <a class="navbar-brand" href="#">SUPPLIER  Management System</a>
+
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" th:href="@{/assessment}">SUPPLIER Assessment</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" th:href="@{/complaints_mgm}">COMPLAINTS Management</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container text-center">
+    <br></br>
+    <br>
+
+    <div><h1> PRIMA SOSNOWIEC SUPPLIERS  List  </h1>  <br>    </div>
+    <div>
+        <table class="table" >
+
+            <thead class="thead-dark">
+            <tr >
+                <th>ID </th>
+                <th>Name  </th>
+                <th>id_Sap  </th>
+                <th>classification  </th>
+                <th>totalScore  </th>
+                
+            </tr>
+            </thead>
+            <tbody class ="table">
+            <th:block th:each="supplier : ${listSuppliers}">
+                <tr>
+                    <td th:class="${supplier.totalScore gt 90} ? 'above-avg' : (${supplier.totalScore gt 80} ? 'just-avg' : 'below-avg')">[[${supplier.id}]]</td>
+                    <td th:class="${supplier.totalScore gt 90} ? 'above-avg-link' : (${supplier.totalScore gt 80} ? 'just-avg-link' : 'below-avg-link')">
+                        <a th:href="@{'/suppliers/show/'+${supplier.id_Sap}}" >[[${supplier.name}]]</a>&nbsp;
+                    </td>
+                    <!--            <td><a th:href="@{'/suppliers/show/'+${supplier.id_Sap}}"></a>[[${supplier.name}]]</td>-->
+                    <td th:class="${supplier.totalScore gt 90} ? 'above-avg' : (${supplier.totalScore gt 80} ? 'just-avg' : 'below-avg')">[[${supplier.id_Sap}]]</td>
+                    <td th:class="${supplier.totalScore gt 90} ? 'above-avg' : (${supplier.totalScore gt 80} ? 'just-avg' : 'below-avg')"> [[${supplier.classification}]]</td>
+<!--                    <td th:class="${supplier.totalScore gt 90} ? 'above-avg' : (${supplier.totalScore gt 80} ? 'just-avg' : 'below-avg')">[[${supplier.totalScore}]]</td>-->
+<!--                    <td th:text="|Total score: ${supplier.totalScore} pkt|"-->
+<!--                       th:class="${supplier.totalScore} gt 90? 'above-avg' : 'below-avg' " class="just-avg">-->
+<!--                    </td>-->
+<!--                    <td th:text="|Total score: ${supplier.totalScore} pkt|">-->
+<!--                    <th:block th:if="${supplier.totalScore gt 80  }" class="just-avg"  ></th:block>-->
+<!--                    <th:block th:if="${supplier.totalScore gt 90  }" class="above-avg"  ></th:block>-->
+<!--                    <th:block th:if="${supplier.totalScore lt 70 }" class="below-avg"></th:block>-->
+<!--                        th:class="${supplier.totalScore} lt 80? 'below-avg' : 'just-avg'" class="above-avg">-->
+<!--                        <td th:switch="${supplier.totalScore}"-->
+<!--                             th:case="gt 80" class="just-avg"-->
+<!--                             th:case="gt 90" class="above-avg"-->
+<!--                            th:case="lt 70 " class="below-avg">-->
+
+<!--                        </td>-->
+<!--                    <th:block th:if="${supplier.totalScore}lt 90" class="above-avg" >-->
+<!--                        <td th:text="|Total score: ${supplier.totalScore} pkt|"-->
+<!--                            th:class="${supplier.totalScore} gt 80? 'just-avg' : 'below-avg' " class="just-avg">-->
+<!--                        </td></th:block>-->
+<!--                   https://stackoverflow.com/questions/45251624/thymeleaf-how-to-make-table-with-different-colors-->
+<!--                    <td th:text="${data.riskIndex}" th:styleappend="'background-color: ' + ${T(web.utils.DataRepresentationUtils).convertRiskIndexToRGBLiteral(data.riskIndex)} + ';'"></td>-->
+                    <td th:text="${supplier.totalScore}" th:class="${supplier.totalScore gt 90} ? 'above-avg' : (${supplier.totalScore gt 80} ? 'just-avg' : 'below-avg')"></td>
+                </tr>
+            </th:block>
+            </tbody>
+        </table>
+
+    </div>
+
+</div>
+</body>
+</html>

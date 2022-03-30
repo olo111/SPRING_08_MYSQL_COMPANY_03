@@ -1,0 +1,91 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    width: 600px;
+}
+
+table, th, td {
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+.table_component, th, td{
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+.thead-dark{
+    color: lightgoldenrodyellow;
+    font-weight: bold;
+    background-color: black;
+    border: 3px solid bisque;
+    border-collapse: collapse;
+}
+.above-avg {
+    color: lightgoldenrodyellow;
+    font-weight: bold;
+    background-color: green;
+}
+.above-avg-comp {
+    color: lightgoldenrodyellow;
+    font-weight: bold;
+    background-color: limegreen;
+}
+.above-avg-audit {
+    color: lightgoldenrodyellow;
+    font-weight: bold;
+    background-color: limegreen;
+}
+.just-avg-audit {
+    color: lightgoldenrodyellow;
+    font-weight: bold;
+    background-color: darkgray;
+}
+.below-avg-audit {
+    color: lightgoldenrodyellow;
+    font-weight: bold;
+    background-color: darkred;
+}
+.above-avg-link{
+    color: lightgoldenrodyellow;
+    font-weight: bold;
+    background-color: green;
+
+}
+
+.just-avg{
+    color: black;
+    background-color: gold;
+    font-weight: bold;
+}
+.just-avg-comp{
+    color: black;
+    background-color: gold;
+    font-weight: bold;
+}
+.just-avg-link{
+    color: lightgoldenrodyellow;
+    background-color: gold;
+    font-weight: bold;
+}
+.below-avg {
+    color: lightskyblue;
+    background-color: firebrick;
+    font-weight: bold;
+}
+.below-avg-comp {
+    color: lightskyblue;
+    background-color: firebrick;
+    font-weight: bold;
+}
+.below-avg-link {
+    color: lightgoldenrodyellow;
+    background-color: firebrick;
+    font-weight: bold;
+}
+
+.odd-row {
+    background-color: lightgray;
+}
