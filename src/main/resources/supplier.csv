@@ -1,156 +1,613 @@
-﻿SUPPLIER;ZAKŁAD;"15.
- SUPPLIER SCORE";"16.
- SUPPLIER CLASIFICATION";ID_SAP
-3DL ITALIA SRL;PSAPT;97,77777778;A;5109918
-3M;PSAPT;97,43589744;A;5108631
-5104678    ALBIS POLSKA;PSAPT;100;A;5104678
-A.RAYMOND;PSAPT;97,20238095;A;5100575
-ACTION COMP.;PSAPT;81,25; B;5109912
-CFITALIA;PSAPT;72,14285714;C;5100584
-ADLER POLSKA;PSAPT;100;A;5100584
-AD PLASTIK;PSCPS;97,14285714;A;5106708
-AKZO;PSCPS;97,5;A;15000087
-ALFA ELEKTRO;PSAPT;85,71428571; B;5105108
-ARKEMA;PSCPS;97,14285714;A;5109463
-ATG;PSCPS;97,14285714;A;5103234
-BASELL;PSCPS;97,14285714;A;5104218
-BASF POLSKA;PSAPT;97,14285714;A;5109930
-BDV;PSAPT;97,14285714;A;5100579
-BILPLAST;PSAPT;100;A;5108903
-BMP;PSAPT;97,5;A;5108319
-BOLLHOFF;PSAPT;97,5;A;5105916
-BOREALIS AG;PSAPT;97,14285714;A;5107205
-BOSCH GMBH;PSAPT;97,14285714;A;5105367
-BUDCHEM;PSAPT;100;A;5108654
-CIMA;PSAPT;97,14285714;A;5101001
-CABOT;PSAPT;92,85714286;A;5109662
-CAILLAU;PSAPT;97,14285714;A;5100571
-CASTELCROM;PSAPT;90,17857143;A;5107988
-CELANESE SOFTER;PSAPT;97,14285714;A;5109357
-CLARIANT PLASTICS AN;PSAPT;92,85714286;A;5104473
-CLEANING;PSCPS;97,14285714;A;5103112
-COBRAPLAST SRL;PSAPT;97,14285714;A;5104566
-CONTINENTAL (VITESCO);PSAPT;97,14285714;A;5109760
-COVESTRO;PSCPS;97,14285714;A;5106784
-DBI PLASTICS SP. Z O.O.;PSAPT;100;A;5107865
-DOMO;PSAPT;92,85714286;A;5104322
-DRUKARNIA W&W;PSAPT;100;A;5104182
-DUPONT;PSAPT;92,38095238;A;5109637
-EDILCHIMICA;PSAPT;100;A;15000246
-EDILCHIMICA;PSAPT;100;A;15000246
-EIDOS SRL;PSAPT;97,14285714;A;5108811
-EJOT POLSKA SP. ZO.O.;PSAPT;97,14285714;A;5107295
-ELEKTROMETAL;PSAPT;100;A;5104337
-ETICOD;PSAPT;100;A;5106366
-ETTER SAS;PSAPT;97,14285714;A;51000170
-EUROFIX POLSKA SP. ZO. O.;PSCPS;100;A;5107373
-EUROLAMEC;PSAPT;97,14285714;A;5107024
-EVAL EUROPE NV;PSAPT;97,14285714;A;5100451
-FARA INDUSTRIALE S.R.L.;PSAPT;97,5;A;5100180
-FGI;PSAPT;97,14285714;A;5106716
-FIERA;PSAPT;97,14285714;A;5100180
-FTE - VALEO;PSAPT;97,14285714;A;5109839
-GAM-PLAST;PSAPT;97,14285714;A;5101628
-GERDES GMBH;PSAPT;97,14285714;A;5106261
- HUTCHINSON POLAND SP.ZO.O.;PSAPT;100;A;5101749
-IGUS;PSAPT;97,14285714;A;5107782
-ILTAR ITALBOX;PSAPT;97,14285714;A;5100910
-INTERMECA SARL;PSAPT;92,85714286;A;5105191
- ISAG SRL;PSAPT;97,14285714;A;5100747
-ITIB;PSAPT;97,14285714;A;5103266
-ITW;PSAPT;97,14285714;A;5100016
-IVICT;PSAPT;92,85714286;A;5109697
-IZOBLOK;PSCPS;100;A;5104800
-JOHN GUEST POLSKA SP.Z O.O;PSAPT;100;A;5104943
-JP TECHNOLOGY;PSAPT;100;A;5109683
-KAB-LEM  S.P.A.;PSAPT;97,14285714;A;5100973
-KLEVERS;PSAPT;97,14285714;A;5100797
-KRAKCHEMIA S.A.;PSAPT;85,71428571; B;5107950
-KURZ  PC PRINT;PSAPT;100;A;5105255
-LA FRANCE;PSCPS;92,85714286;A;5108750
-LANXESS DEUTSCHLAND GMBH;PSCPS;97,14285714;A;5107015
-LAPO COMPOUNDS SRL;PSCPS;97,14285714;A;15000027
-LOHMANN;PSAPT;97,5;A;5105622
-LOTTE CHEMICAL;PSCPS;92,85714286;A;5108219
-M.C.I;PSCPS;97,14285714;A;5100490
-M.S.A;PSCPS;97,14285714;A;5100550
-M5;PSAPT;97,5;A;5104098
-MAIP;PSAPT;96,41325095;A;5100984
-MANNHUMMEL ;PSAPT;100;A;5104493
-MASCHERPA;PSAPT;97,14285714;A;5101031
-MBI;PSAPT;97,14285714;A;5106607
-MCCP POLAND;PSCPS;97,14285714;A;5104683
-MCI;PSAPT;97,14285714;A;5100490
-MCPP EUROPE;PSCPS;94,28571429;A;5107966
-MEHLER;PSCPS;97,14285714;A;5106128
-MESGUM SP. Z O.O.;PSAPT;35,71428571;C;5108510
-METALGALVANO;PSAPT;97,14285714;A;5106462
-METALURGICAS PABUR;PSAPT;92,85714286;A;5108890
-MITSUI;PSAPT;97,14285714;A;5100452
-MOLLIFICIO LECHESSE;PSAPT;97,14285714;A;5101295
-MPE;PSCPS;97,14285714;A;5100977
-MUSTAD;PSCPS;97,14285714;A;5100989
-NATIONAL MOLDING;PSAPT;97,14285714;A;5106214
-NUOVO MOLLIFICIO CAMPANO;PSAPT;97,14285714;A;5101100
-OCM;PSCPS;97,14285714;A;5100113
-OLSA MX;PSCPS;92,85714286;A;5107470
-OMIKRON;PSCPS;97,14285714;A;5109360
-OTTENSTEN;PSCPS;85,71428571; B;5104291
-P.C.M. Srl;PSAPT;97,14285714;A;5106976
-P.S.M. CELADA;PSAPT;97,14285714;A;5101038
-PB ELEKTRO;PSCPS;97,14285714;A;5108829
-PCAM VENARIA;PSAPT;97,14285714;A;5102923
-PCAM VENARIA;PSAPT;97,14285714;A;5102923
-PETROFINA;PSAPT;97,14285714;A;5104564
-PETZ;PSAPT;93,75;A;5109905
-PHILLIPS;PSAPT;87,5; B;5109062
-PLASTIFORM A.S.;PSAPT;92,85714286;A;5100017
-PLASTIQUES;PSAPT;92,85714286;A;5105177
-POLIBLEND;PSAPT;97,14285714;A;5100379
-POLITEC;PSCPS;94,28571429;A;5100077
-POLY.TEC;PSCPS;97,14285714;A;5105825
-PORO ADDITIVE SP. ZOO;PSAPT;97,14285714;A;5108061
-PPG;PSCPS;97,5;A;5100470
-PRIMA COMP. PALIANO;PSAPT;97,14285714;A;5102923
-PROCARS;PSAPT;100;A;5100111
-PROXIMA TAPE;PSAPT;97,14285714;A;15000110
-RADICI NOVACIPS S.p.A.;PSAPT;97,14285714;A;5100589
-RAVAGO;PSCPS;97,14285714;A;5100844
-RGPBALLS SRL;PSAPT;97,14285714;A;5108922
-ROLFIX;PSCPS;100;A;5104188
-SAINT GOBAIN;PSAPT;97,14285714;A;5104489
-SALGOMMA;PSCPS;97,14285714;A;5100975
-SATER S.R.L.;PSAPT;97,14285714;A;5105916
-SCHURHOLZ GMBH & CO. KG;PSAPT;97,14285714;A;5103148
-SELMAT SRL SAPA GROUP;PSAPT;97,14285714;A;5111111
-SERI;PSAPT;95;A;15000058
-SIKA FRNAKFURT;PSAPT;97,14285714;A;5109895
-SIKA HAMBURG;PSCPS;97,14285714;A;5105988
-SINTET;PSAPT;97,14285714;A;5100538
-SIRMAX POLSKA SP Z O.O.;PSCPS;100;A;5105137
-SOLE ODERZO;PSAPT;97,5;A;5107422
-SOUTHCO;PSCPS;97,14285714;A;5107140
-STALMAX;PSAPT;85,71428571; B;5108801
-STOKVIS TAPES POLSKA;PSCPS;97,14285714;A;5108968
-STRONGHOLD;PSAPT;97,14285714;A;5108549
-SUMIKA;PSAPT;94,28571429;A;5108968
-Technical Sealing;PSAPT;100;A;5104388
-TECNICA GASKET;PSAPT;80,47619048; B;5100995
-TECNOMECCANICA;PSAPT;97,14285714;A;5105831
-TECNOMOLLE;PSAPT;97,14285714;A;5100964
-TEKSPAN;PSAPT;97,14285714;A;5106007
-TESA;PSAPT;97,32142857;A;5104326
-TORINO SPRING;PSAPT;97,14285714;A;5109265
-TOSH;PSAPT;82,85714286; B;5100969
-TPV;PSAPT;97,14285714;A;5100327
-TSS POLAND;PSCPS;100;A;5104388
-TSS POLAND;PSAPT;100;A;5104388
-TUS24 SP. Z O.O.;PSAPT;100;A;5108122
-VALEO SCHALTER;PSCPS;97,5;A;5100002
-VEGGOPLAST;PSAPT;97,14285714;A;5100644
-VERITAS AG;PSAPT;97,14285714;A;5104488
-VERPLAST;PSCPS;97,14285714;A;5100656
-VGV SRL;PSAPT;97,14285714;A;5108167
-WOERWAG;PSCPS;97,5;A;15000113
- ZAKLAD SPREZYN;PSAPT;100;A;5108111
-ZANINI ITALIA S.R.L.;PSCPS;97,14285714;A;5108873
+SUPPLIER	ZAK�AD	15.														
+" SUPPLIER SCORE"""	16.															Operation failed: There was an error while applying the SQL script to the database.
+" SUPPLIER CLASIFICATION"""	ID_SAP															ERROR 1062: 1062: Duplicate entry '1' for key 'supplier.PRIMARY'
+																SQL Statement:
+				id	class	sap_Id	Name	score	plant							INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('1', 'A', '5109918', '3DL ITALIA SRL', '98')
+				1	A	5109918	3DL ITALIA SRL	98	PSAPT		98	98				
+				2	A	5108631	3M	98	PSAPT		98	98				ERROR 1062: 1062: Duplicate entry '2' for key 'supplier.PRIMARY'
+				3	A	5104678	5104678    ALBIS POLSKA	100	PSAPT		100	100				SQL Statement:
+				4	A	5100575	A.RAYMOND	98	PSAPT		98	98				INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('2', 'A', '5108631', '3M', '98')
+				5	 B	5109912	ACTION COMP.	82	PSAPT		82	82				
+				6	C	5100584	CFITALIA	74	PSAPT		74	74				ERROR 1062: 1062: Duplicate entry '3' for key 'supplier.PRIMARY'
+				7	A	5100584	ADLER POLSKA	100	PSAPT		100	100				SQL Statement:
+				8	A	5106708	AD PLASTIK	98	PSCPS		98	98				INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('3', 'A', '5104678', '5104678    ALBIS POLSKA', '100')
+				9	A	15000087	AKZO	98	PSCPS		98	98				
+				10	 B	5105108	ALFA ELEKTRO	86	PSAPT		86	86				ERROR 1062: 1062: Duplicate entry '4' for key 'supplier.PRIMARY'
+				11	A	5109463	ARKEMA	98	PSCPS		98	98				SQL Statement:
+				12	A	5103234	ATG	98	PSCPS		98	98				INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('4', 'A', '5100575', 'A.RAYMOND', '98')
+				13	A	5104218	BASELL	98	PSCPS		98	98				
+				14	A	5109930	BASF POLSKA	98	PSAPT		98	98				ERROR 1062: 1062: Duplicate entry '5' for key 'supplier.PRIMARY'
+				15	A	5100579	BDV	98	PSAPT		98	98				SQL Statement:
+				16	A	5108903	BILPLAST	100	PSAPT		100	100				INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('5', 'B', '5109912', 'ACTION COMP.', '82')
+				17	A	5108319	BMP	98	PSAPT		98	98				
+				18	A	5105916	BOLLHOFF	98	PSAPT		98	98				ERROR 1062: 1062: Duplicate entry '6' for key 'supplier.PRIMARY'
+				19	A	5107205	BOREALIS AG	98	PSAPT		98	98				SQL Statement:
+				20	A	5105367	BOSCH GMBH	98	PSAPT		98	98				INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('6', 'C', '5100584', 'CFITALIA', '74')
+				21	A	5108654	BUDCHEM	100	PSAPT		100	100				
+				22	A	5101001	CIMA	98	PSAPT		98	98				ERROR 1062: 1062: Duplicate entry '7' for key 'supplier.PRIMARY'
+				23	A	5109662	CABOT	94	PSAPT		94	94				SQL Statement:
+				24	A	5100571	CAILLAU	98	PSAPT		98	98				INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('7', 'A', '5100584', 'ADLER POLSKA', '100')
+				25	A	5107988	CASTELCROM	92	PSAPT		92	92				
+				26	A	5109357	CELANESE SOFTER	98	PSAPT		98	98				ERROR 1062: 1062: Duplicate entry '8' for key 'supplier.PRIMARY'
+				27	A	5104473	CLARIANT PLASTICS AN	94	PSAPT		94	94				SQL Statement:
+				28	A	5103112	CLEANING	98	PSCPS		98	98				INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('8', 'A', '5106708', 'AD PLASTIK', '98')
+				29	A	5104566	COBRAPLAST SRL	98	PSAPT		98	98				
+				30	A	5109760	CONTINENTAL (VITESCO)	98	PSAPT		98	98				ERROR 1062: 1062: Duplicate entry '9' for key 'supplier.PRIMARY'
+				31	A	5106784	COVESTRO	98	PSCPS		98	98				SQL Statement:
+				32	A	5107865	DBI PLASTICS SP. Z O.O.	100	PSAPT		100	100				INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('9', 'A', '15000087', 'AKZO', '98')
+				33	A	5104322	DOMO	94	PSAPT		94	94				
+				34	A	5104182	DRUKARNIA W&W	100	PSAPT		100	100				ERROR 1062: 1062: Duplicate entry '10' for key 'supplier.PRIMARY'
+				35	A	5109637	DUPONT	94	PSAPT		94	94				SQL Statement:
+				36	A	15000246	EDILCHIMICA	100	PSAPT		100	100				INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('10', 'B', '5105108', 'ALFA ELEKTRO', '86')
+				38	A	5108811	EIDOS SRL	98	PSAPT		98	98				
+				39	A	5107295	EJOT POLSKA SP. ZO.O.	98	PSAPT		98	98				ERROR 1062: 1062: Duplicate entry '11' for key 'supplier.PRIMARY'
+				40	A	5104337	ELEKTROMETAL	100	PSAPT		100	100				SQL Statement:
+				41	A	5106366	ETICOD	100	PSAPT		100	100				INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('11', 'A', '5109463', 'ARKEMA', '98')
+				42	A	51000170	ETTER SAS	98	PSAPT		98	98				
+				43	A	5107373	EUROFIX POLSKA SP. ZO. O.	100	PSCPS		100	100				ERROR 1062: 1062: Duplicate entry '12' for key 'supplier.PRIMARY'
+				44	A	5107024	EUROLAMEC	98	PSAPT		98	98				SQL Statement:
+				45	A	5100451	EVAL EUROPE NV	98	PSAPT		98	98				INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('12', 'A', '5103234', 'ATG', '98')
+				46	A	5100180	FARA INDUSTRIALE S.R.L.	98	PSAPT		98	98				
+				47	A	5106716	FGI	98	PSAPT		98	98				ERROR 1062: 1062: Duplicate entry '13' for key 'supplier.PRIMARY'
+				48	A	5100180	FIERA	98	PSAPT		98	98				SQL Statement:
+				49	A	5109839	FTE - VALEO	98	PSAPT		98	98				INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('13', 'A', '5104218', 'BASELL', '98')
+				50	A	5101628	GAM-PLAST	98	PSAPT		98	98				
+				51	A	5106261	GERDES GMBH	98	PSAPT		98	98				ERROR 1062: 1062: Duplicate entry '14' for key 'supplier.PRIMARY'
+				52	A	5101749	 HUTCHINSON POLAND SP.ZO.O.	100	PSAPT		100	100				SQL Statement:
+				53	A	5107782	IGUS	98	PSAPT		98	98				INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('14', 'A', '5109930', 'BASF POLSKA', '98')
+				54	A	5100910	ILTAR ITALBOX	98	PSAPT		98	98				
+				55	A	5105191	INTERMECA SARL	94	PSAPT		94	94				ERROR 1062: 1062: Duplicate entry '15' for key 'supplier.PRIMARY'
+				56	A	5100747	 ISAG SRL	98	PSAPT		98	98				SQL Statement:
+				57	A	5103266	ITIB	98	PSAPT		98	98				INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('15', 'A', '5100579', 'BDV', '98')
+				58	A	5100016	ITW	98	PSAPT		98	98				
+				59	A	5109697	IVICT	94	PSAPT		94	94				ERROR 1062: 1062: Duplicate entry '16' for key 'supplier.PRIMARY'
+				60	A	5104800	IZOBLOK	100	PSCPS		100	100				SQL Statement:
+				61	A	5104943	JOHN GUEST POLSKA SP.Z O.O	100	PSAPT		100	100				INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('16', 'A', '5108903', 'BILPLAST', '100')
+				62	A	5109683	JP TECHNOLOGY	100	PSAPT		100	100				
+				63	A	5100973	KAB-LEM  S.P.A.	98	PSAPT		98	98				ERROR 1062: 1062: Duplicate entry '17' for key 'supplier.PRIMARY'
+				64	A	5100797	KLEVERS	98	PSAPT		98	98				SQL Statement:
+				65	 B	5107950	KRAKCHEMIA S.A.	86	PSAPT		86	86				INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('17', 'A', '5108319', 'BMP', '98')
+				66	A	5105255	KURZ  PC PRINT	100	PSAPT		100	100				
+				67	A	5108750	LA FRANCE	94	PSCPS		94	94				ERROR 1062: 1062: Duplicate entry '18' for key 'supplier.PRIMARY'
+				68	A	5107015	LANXESS DEUTSCHLAND GMBH	98	PSCPS		98	98				SQL Statement:
+				69	A	15000027	LAPO COMPOUNDS SRL	98	PSCPS		98	98				INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('18', 'A', '5105916', 'BOLLHOFF', '98')
+				70	A	5105622	LOHMANN	98	PSAPT		98	98				
+				71	A	5108219	LOTTE CHEMICAL	94	PSCPS		94	94				ERROR 1062: 1062: Duplicate entry '19' for key 'supplier.PRIMARY'
+				72	A	5100490	M.C.I	98	PSCPS		98	98				SQL Statement:
+				73	A	5100550	M.S.A	98	PSCPS		98	98				INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('19', 'A', '5107205', 'BOREALIS AG', '98')
+				74	A	5104098	M5	98	PSAPT		98	98				
+				75	A	5100984	MAIP	98	PSAPT		98	98				ERROR 1062: 1062: Duplicate entry '20' for key 'supplier.PRIMARY'
+				76	A	5104493	MANNHUMMEL 	100	PSAPT		100	100				SQL Statement:
+				77	A	5101031	MASCHERPA	98	PSAPT		98	98				INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('20', 'A', '5105367', 'BOSCH GMBH', '98')
+				78	A	5106607	MBI	98	PSAPT		98	98				
+				79	A	5104683	MCCP POLAND	98	PSCPS		98	98				ERROR 1062: 1062: Duplicate entry '21' for key 'supplier.PRIMARY'
+				80	A	5100490	MCI	98	PSAPT		98	98				SQL Statement:
+				81	A	5107966	MCPP EUROPE	96	PSCPS		96	96				INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('21', 'A', '5108654', 'BUDCHEM', '100')
+				82	A	5106128	MEHLER	98	PSCPS		98	98				
+				83	C	5108510	MESGUM SP. Z O.O.	36	PSAPT		36	36				ERROR 1062: 1062: Duplicate entry '22' for key 'supplier.PRIMARY'
+				84	A	5106462	METALGALVANO	98	PSAPT		98	98				SQL Statement:
+				85	A	5108890	METALURGICAS PABUR	94	PSAPT		94	94				INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('22', 'A', '5101001', 'CIMA', '98')
+				86	A	5100452	MITSUI	98	PSAPT		98	98				
+				87	A	5101295	MOLLIFICIO LECHESSE	98	PSAPT		98	98				ERROR 1062: 1062: Duplicate entry '23' for key 'supplier.PRIMARY'
+				88	A	5100977	MPE	98	PSCPS		98	98				SQL Statement:
+				89	A	5100989	MUSTAD	98	PSCPS		98	98				INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('23', 'A', '5109662', 'CABOT', '94')
+				90	A	5106214	NATIONAL MOLDING	98	PSAPT		98	98				
+				91	A	5101100	NUOVO MOLLIFICIO CAMPANO	98	PSAPT		98	98				ERROR 1062: 1062: Duplicate entry '24' for key 'supplier.PRIMARY'
+				92	A	5100113	OCM	98	PSCPS		98	98				SQL Statement:
+				93	A	5107470	OLSA MX	94	PSCPS		94	94				INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('24', 'A', '5100571', 'CAILLAU', '98')
+				94	A	5109360	OMIKRON	98	PSCPS		98	98				
+				95	 B	5104291	OTTENSTEN	86	PSCPS		86	86				ERROR 1062: 1062: Duplicate entry '25' for key 'supplier.PRIMARY'
+				96	A	5106976	P.C.M. Srl	98	PSAPT		98	98				SQL Statement:
+				97	A	5101038	P.S.M. CELADA	98	PSAPT		98	98				INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('25', 'A', '5107988', 'CASTELCROM', '92')
+				98	A	5108829	PB ELEKTRO	98	PSCPS		98	98				
+				99	A	5102923	PCAM VENARIA	98	PSAPT		98	98				ERROR 1062: 1062: Duplicate entry '26' for key 'supplier.PRIMARY'
+				100	A	5102923	PCAM VENARIA	98	PSAPT		98	98				SQL Statement:
+				101	A	5104564	PETROFINA	98	PSAPT		98	98				INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('26', 'A', '5109357', 'CELANESE SOFTER', '98')
+				102	A	5109905	PETZ	94	PSAPT		94	94				
+				103	 B	5109062	PHILLIPS	88	PSAPT		88	88				ERROR 1062: 1062: Duplicate entry '27' for key 'supplier.PRIMARY'
+				104	A	5100017	PLASTIFORM A.S.	94	PSAPT		94	94				SQL Statement:
+				105	A	5105177	PLASTIQUES	94	PSAPT		94	94				INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('27', 'A', '5104473', 'CLARIANT PLASTICS AN', '94')
+				106	A	5100379	POLIBLEND	98	PSAPT		98	98				
+				107	A	5100077	POLITEC	96	PSCPS		96	96				ERROR 1062: 1062: Duplicate entry '28' for key 'supplier.PRIMARY'
+				108	A	5105825	POLY.TEC	98	PSCPS		98	98				SQL Statement:
+				109	A	5108061	PORO ADDITIVE SP. ZOO	98	PSAPT		98	98				INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('28', 'A', '5103112', 'CLEANING', '98')
+				110	A	5100470	PPG	98	PSCPS		98	98				
+				111	A	5102923	PRIMA COMP. PALIANO	98	PSAPT		98	98				ERROR 1062: 1062: Duplicate entry '29' for key 'supplier.PRIMARY'
+				112	A	5100111	PROCARS	100	PSAPT		100	100				SQL Statement:
+				113	A	15000110	PROXIMA TAPE	98	PSAPT		98	98				INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('29', 'A', '5104566', 'COBRAPLAST SRL', '98')
+				114	A	5100589	RADICI NOVACIPS S.p.A.	98	PSAPT		98	98				
+				115	A	5100844	RAVAGO	98	PSCPS		98	98				ERROR 1062: 1062: Duplicate entry '30' for key 'supplier.PRIMARY'
+				116	A	5108922	RGPBALLS SRL	98	PSAPT		98	98				SQL Statement:
+				117	A	5104188	ROLFIX	100	PSCPS		100	100				INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('30', 'A', '5109760', 'CONTINENTAL (VITESCO)', '98')
+				118	A	5104489	SAINT GOBAIN	98	PSAPT		98	98				
+				119	A	5100975	SALGOMMA	98	PSCPS		98	98				ERROR 1062: 1062: Duplicate entry '31' for key 'supplier.PRIMARY'
+				120	A	5105916	SATER S.R.L.	98	PSAPT		98	98				SQL Statement:
+				121	A	5103148	SCHURHOLZ GMBH & CO. KG	98	PSAPT		98	98				INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('31', 'A', '5106784', 'COVESTRO', '98')
+				122	A	5111111	SELMAT SRL SAPA GROUP	98	PSAPT		98	98				
+				123	A	15000058	SERI	96	PSAPT		96	96				ERROR 1062: 1062: Duplicate entry '32' for key 'supplier.PRIMARY'
+				124	A	5109895	SIKA FRNAKFURT	98	PSAPT		98	98				SQL Statement:
+				125	A	5105988	SIKA HAMBURG	98	PSCPS		98	98				INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('32', 'A', '5107865', 'DBI PLASTICS SP. Z O.O.', '100')
+				126	A	5100538	SINTET	98	PSAPT		98	98				
+				127	A	5105137	SIRMAX POLSKA SP Z O.O.	100	PSCPS		100	100				ERROR 1062: 1062: Duplicate entry '33' for key 'supplier.PRIMARY'
+				128	A	5107422	SOLE ODERZO	98	PSAPT		98	98				SQL Statement:
+				129	A	5107140	SOUTHCO	98	PSCPS		98	98				INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('33', 'A', '5104322', 'DOMO', '94')
+				130	 B	5108801	STALMAX	86	PSAPT		86	86				
+				131	A	5108968	STOKVIS TAPES POLSKA	98	PSCPS		98	98				ERROR 1062: 1062: Duplicate entry '34' for key 'supplier.PRIMARY'
+				132	A	5108549	STRONGHOLD	98	PSAPT		98	98				SQL Statement:
+				133	A	5108968	SUMIKA	96	PSAPT		96	96				INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('34', 'A', '5104182', 'DRUKARNIA W&W', '100')
+				134	A	5104388	Technical Sealing	100	PSAPT		100	100				
+				135	 B	5100995	TECNICA GASKET	82	PSAPT		82	82				ERROR 1062: 1062: Duplicate entry '35' for key 'supplier.PRIMARY'
+				136	A	5105831	TECNOMECCANICA	98	PSAPT		98	98				SQL Statement:
+				137	A	5100964	TECNOMOLLE	98	PSAPT		98	98				INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('35', 'A', '5109637', 'DUPONT', '94')
+				138	A	5106007	TEKSPAN	98	PSAPT		98	98				
+				139	A	5104326	TESA	98	PSAPT		98	98				ERROR 1062: 1062: Duplicate entry '36' for key 'supplier.PRIMARY'
+				140	A	5109265	TORINO SPRING	98	PSAPT		98	98				SQL Statement:
+				141	 B	5100969	TOSH	84	PSAPT		84	84				INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('36', 'A', '15000246', 'EDILCHIMICA', '100')
+				142	A	5100327	TPV	98	PSAPT		98	98				
+				143	A	5104388	TSS POLAND	100	PSCPS		100	100				ERROR 1062: 1062: Duplicate entry 'EDILCHIMICA' for key 'supplier.UK_c3fclhmodftxk4d0judiafwi3'
+				144	A	5104388	TSS POLAND	100	PSAPT		100	100				SQL Statement:
+				145	A	5108122	TUS24 SP. Z O.O.	100	PSAPT		100	100				INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('37', 'A', '15000246', 'EDILCHIMICA', '100')
+				146	A	5100002	VALEO SCHALTER	98	PSCPS		98	98				
+				147	A	5100644	VEGGOPLAST	98	PSAPT		98	98				ERROR 1062: 1062: Duplicate entry '38' for key 'supplier.PRIMARY'
+				148	A	5104488	VERITAS AG	98	PSAPT		98	98				SQL Statement:
+				149	A	5100656	VERPLAST	98	PSCPS		98	98				INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('38', 'A', '5108811', 'EIDOS SRL', '98')
+				150	A	5108167	VGV SRL	98	PSAPT		98	98				
+				151	A	15000113	WOERWAG	98	PSCPS		98	98				ERROR 1062: 1062: Duplicate entry '39' for key 'supplier.PRIMARY'
+				152	A	5108111	 ZAKLAD SPREZYN	100	PSAPT		100	100				SQL Statement:
+				153	A	5108873	ZANINI ITALIA S.R.L.	98	PSCPS		98	98				INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('39', 'A', '5107295', 'EJOT POLSKA SP. ZO.O.', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '40' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('40', 'A', '5104337', 'ELEKTROMETAL', '100')
+																
+																ERROR 1062: 1062: Duplicate entry '41' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('41', 'A', '5106366', 'ETICOD', '100')
+																
+																ERROR 1062: 1062: Duplicate entry '42' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('42', 'A', '51000170', 'ETTER SAS', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '43' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('43', 'A', '5107373', 'EUROFIX POLSKA SP. ZO. O.', '100')
+																
+																ERROR 1062: 1062: Duplicate entry '44' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('44', 'A', '5107024', 'EUROLAMEC', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '45' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('45', 'A', '5100451', 'EVAL EUROPE NV', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '46' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('46', 'A', '5100180', 'FARA INDUSTRIALE S.R.L.', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '47' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('47', 'A', '5106716', 'FGI', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '48' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('48', 'A', '5100180', 'FIERA', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '49' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('49', 'A', '5109839', 'FTE - VALEO', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '50' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('50', 'A', '5101628', 'GAM-PLAST', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '51' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('51', 'A', '5106261', 'GERDES GMBH', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '52' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('52', 'A', '5101749', 'HUTCHINSON POLAND SP.ZO.O.', '100')
+																
+																ERROR 1062: 1062: Duplicate entry '53' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('53', 'A', '5107782', 'IGUS', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '54' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('54', 'A', '5100910', 'ILTAR ITALBOX', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '55' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('55', 'A', '5105191', 'INTERMECA SARL', '94')
+																
+																ERROR 1062: 1062: Duplicate entry '56' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('56', 'A', '5100747', 'ISAG SRL', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '57' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('57', 'A', '5103266', 'ITIB', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '58' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('58', 'A', '5100016', 'ITW', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '59' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('59', 'A', '5109697', 'IVICT', '94')
+																
+																ERROR 1062: 1062: Duplicate entry '60' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('60', 'A', '5104800', 'IZOBLOK', '100')
+																
+																ERROR 1062: 1062: Duplicate entry '61' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('61', 'A', '5104943', 'JOHN GUEST POLSKA SP.Z O.O', '100')
+																
+																ERROR 1062: 1062: Duplicate entry '62' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('62', 'A', '5109683', 'JP TECHNOLOGY', '100')
+																
+																ERROR 1062: 1062: Duplicate entry '63' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('63', 'A', '5100973', 'KAB-LEM  S.P.A.', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '64' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('64', 'A', '5100797', 'KLEVERS', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '65' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('65', 'B', '5107950', 'KRAKCHEMIA S.A.', '86')
+																
+																ERROR 1062: 1062: Duplicate entry '66' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('66', 'A', '5105255', 'KURZ  PC PRINT', '100')
+																
+																ERROR 1062: 1062: Duplicate entry '67' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('67', 'A', '5108750', 'LA FRANCE', '94')
+																
+																ERROR 1062: 1062: Duplicate entry '68' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('68', 'A', '5107015', 'LANXESS DEUTSCHLAND GMBH', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '69' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('69', 'A', '15000027', 'LAPO COMPOUNDS SRL', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '70' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('70', 'A', '5105622', 'LOHMANN', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '71' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('71', 'A', '5108219', 'LOTTE CHEMICAL', '94')
+																
+																ERROR 1062: 1062: Duplicate entry '72' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('72', 'A', '5100490', 'M.C.I', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '73' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('73', 'A', '5100550', 'M.S.A', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '74' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('74', 'A', '5104098', 'M5', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '75' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('75', 'A', '5100984', 'MAIP', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '76' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('76', 'A', '5104493', 'MANNHUMMEL', '100')
+																
+																ERROR 1062: 1062: Duplicate entry '77' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('77', 'A', '5101031', 'MASCHERPA', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '78' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('78', 'A', '5106607', 'MBI', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '79' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('79', 'A', '5104683', 'MCCP POLAND', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '80' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('80', 'A', '5100490', 'MCI', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '81' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('81', 'A', '5107966', 'MCPP EUROPE', '96')
+																
+																ERROR 1062: 1062: Duplicate entry '82' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('82', 'A', '5106128', 'MEHLER', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '83' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('83', 'C', '5108510', 'MESGUM SP. Z O.O.', '36')
+																
+																ERROR 1062: 1062: Duplicate entry '84' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('84', 'A', '5106462', 'METALGALVANO', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '85' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('85', 'A', '5108890', 'METALURGICAS PABUR', '94')
+																
+																ERROR 1062: 1062: Duplicate entry '86' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('86', 'A', '5100452', 'MITSUI', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '87' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('87', 'A', '5101295', 'MOLLIFICIO LECHESSE', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '88' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('88', 'A', '5100977', 'MPE', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '89' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('89', 'A', '5100989', 'MUSTAD', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '90' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('90', 'A', '5106214', 'NATIONAL MOLDING', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '91' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('91', 'A', '5101100', 'NUOVO MOLLIFICIO CAMPANO', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '92' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('92', 'A', '5100113', 'OCM', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '93' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('93', 'A', '5107470', 'OLSA MX', '94')
+																
+																ERROR 1062: 1062: Duplicate entry '94' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('94', 'A', '5109360', 'OMIKRON', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '95' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('95', 'B', '5104291', 'OTTENSTEN', '86')
+																
+																ERROR 1062: 1062: Duplicate entry '96' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('96', 'A', '5106976', 'P.C.M. Srl', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '97' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('97', 'A', '5101038', 'P.S.M. CELADA', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '98' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('98', 'A', '5108829', 'PB ELEKTRO', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '99' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('99', 'A', '5102923', 'PCAM VENARIA', '98')
+																
+																ERROR 1062: 1062: Duplicate entry 'PCAM VENARIA' for key 'supplier.UK_c3fclhmodftxk4d0judiafwi3'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('100', 'A', '5102923', 'PCAM VENARIA', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '101' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('101', 'A', '5104564', 'PETROFINA', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '102' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('102', 'A', '5109905', 'PETZ', '94')
+																
+																ERROR 1062: 1062: Duplicate entry '103' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('103', 'B', '5109062', 'PHILLIPS', '88')
+																
+																ERROR 1062: 1062: Duplicate entry '104' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('104', 'A', '5100017', 'PLASTIFORM A.S.', '94')
+																
+																ERROR 1062: 1062: Duplicate entry '105' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('105', 'A', '5105177', 'PLASTIQUES', '94')
+																
+																ERROR 1062: 1062: Duplicate entry '106' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('106', 'A', '5100379', 'POLIBLEND', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '107' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('107', 'A', '5100077', 'POLITEC', '96')
+																
+																ERROR 1062: 1062: Duplicate entry '108' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('108', 'A', '5105825', 'POLY.TEC', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '109' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('109', 'A', '5108061', 'PORO ADDITIVE SP. ZOO', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '110' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('110', 'A', '5100470', 'PPG', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '111' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('111', 'A', '5102923', 'PRIMA COMP. PALIANO', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '112' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('112', 'A', '5100111', 'PROCARS', '100')
+																
+																ERROR 1062: 1062: Duplicate entry '113' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('113', 'A', '15000110', 'PROXIMA TAPE', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '114' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('114', 'A', '5100589', 'RADICI NOVACIPS S.p.A.', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '115' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('115', 'A', '5100844', 'RAVAGO', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '116' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('116', 'A', '5108922', 'RGPBALLS SRL', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '117' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('117', 'A', '5104188', 'ROLFIX', '100')
+																
+																ERROR 1062: 1062: Duplicate entry '118' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('118', 'A', '5104489', 'SAINT GOBAIN', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '119' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('119', 'A', '5100975', 'SALGOMMA', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '120' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('120', 'A', '5105916', 'SATER S.R.L.', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '121' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('121', 'A', '5103148', 'SCHURHOLZ GMBH & CO. KG', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '122' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('122', 'A', '5111111', 'SELMAT SRL SAPA GROUP', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '123' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('123', 'A', '15000058', 'SERI', '96')
+																
+																ERROR 1062: 1062: Duplicate entry '124' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('124', 'A', '5109895', 'SIKA FRNAKFURT', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '125' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('125', 'A', '5105988', 'SIKA HAMBURG', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '126' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('126', 'A', '5100538', 'SINTET', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '127' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('127', 'A', '5105137', 'SIRMAX POLSKA SP Z O.O.', '100')
+																
+																ERROR 1062: 1062: Duplicate entry '128' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('128', 'A', '5107422', 'SOLE ODERZO', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '129' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('129', 'A', '5107140', 'SOUTHCO', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '130' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('130', 'B', '5108801', 'STALMAX', '86')
+																
+																ERROR 1062: 1062: Duplicate entry '131' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('131', 'A', '5108968', 'STOKVIS TAPES POLSKA', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '132' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('132', 'A', '5108549', 'STRONGHOLD', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '133' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('133', 'A', '5108968', 'SUMIKA', '96')
+																
+																ERROR 1062: 1062: Duplicate entry '134' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('134', 'A', '5104388', 'Technical Sealing', '100')
+																
+																ERROR 1062: 1062: Duplicate entry '135' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('135', 'B', '5100995', 'TECNICA GASKET', '82')
+																
+																ERROR 1062: 1062: Duplicate entry '136' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('136', 'A', '5105831', 'TECNOMECCANICA', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '137' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('137', 'A', '5100964', 'TECNOMOLLE', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '138' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('138', 'A', '5106007', 'TEKSPAN', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '139' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('139', 'A', '5104326', 'TESA', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '140' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('140', 'A', '5109265', 'TORINO SPRING', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '141' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('141', 'B', '5100969', 'TOSH', '84')
+																
+																ERROR 1062: 1062: Duplicate entry '142' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('142', 'A', '5100327', 'TPV', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '143' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('143', 'A', '5104388', 'TSS POLAND', '100')
+																
+																ERROR 1062: 1062: Duplicate entry 'TSS POLAND' for key 'supplier.UK_c3fclhmodftxk4d0judiafwi3'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('144', 'A', '5104388', 'TSS POLAND', '100')
+																
+																ERROR 1062: 1062: Duplicate entry '145' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('145', 'A', '5108122', 'TUS24 SP. Z O.O.', '100')
+																
+																ERROR 1062: 1062: Duplicate entry '146' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('146', 'A', '5100002', 'VALEO SCHALTER', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '147' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('147', 'A', '5100644', 'VEGGOPLAST', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '148' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('148', 'A', '5104488', 'VERITAS AG', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '149' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('149', 'A', '5100656', 'VERPLAST', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '150' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('150', 'A', '5108167', 'VGV SRL', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '151' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('151', 'A', '15000113', 'WOERWAG', '98')
+																
+																ERROR 1062: 1062: Duplicate entry '152' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('152', 'A', '5108111', 'ZAKLAD SPREZYN', '100')
+																
+																ERROR 1062: 1062: Duplicate entry '153' for key 'supplier.PRIMARY'
+																SQL Statement:
+																INSERT INTO `prima_sosnowiec`.`supplier` (`id`, `classification`, `id_sap`, `name`, `total_score`) VALUES ('153', 'A', '5108873', 'ZANINI ITALIA S.R.L.', '98')

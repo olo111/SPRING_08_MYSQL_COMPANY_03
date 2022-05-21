@@ -1,45 +1,72 @@
 <!DOCTYPE html>
-
+<html>
 <head>
+<meta charset ="ISO-8859-1" >
     <meta charset ="UTF-8" >
-    <title>LIST Components</title>
-    <link rel="stylesheet" type="text/css" th:href="@{/webjars/bootstrap/css/bootstrap.min.css}">
+    <title> COMPONENTS  LIST FOR SUPPLIER </title>
+<link rel="stylesheet" type="text/css" th:href="@{/webjars/bootstrap/css/bootstrap.min.css}">
+    <link rel="stylesheet" href="../style/style.css">
+  <link rel="stylesheet" href="../../static/style.css" th:href="@{/style.css}">
 </head>
 
 <body>
-<!-- TERAZ JEST POPRAWNA JEZELI CHODZI O TABELE DLA COMPONENTÓW DLA DOSTAWCY -->
-<link rel="stylesheet" href="../static/style.css" th:href="@{../../style.css}">
-<!--=======================***********************====================================-->
-<!--=========NAG?ÓWEK NAG?ÓWEK  ==================================================-->
-<nav class="navbar navbar-expand-md bg-dark navbar-dark">
-    <!-- Brand -->
-    <a class="navbar-brand" href="#">SUPPLIER  Management System</a>
+<!-- @@@@@@@@@@@   HEADER SECTION   @@@@@@@@@@@ -->
+<header th:replace="fragments :: header">
+   
+</header>
 
-    <!-- Toggler/collapsibe Button -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <!-- Navbar links -->
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" th:href="@{/assessment}">SUPPLIER Assessment</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" th:href="@{/complaints_mgm}">COMPLAINTS Management</a>
-            </li>
-        </ul>
-    </div>
-</nav>
+<!-- @@@@@@@@@@@  -/- HEADER SECTION   @@@@@@@@@@@ -->
 <!--===================================================================================-->
-<div class="container text-center">
-<!--    ten zapis jest ok jedynie zmienna [[${supplierName2}]] jest NOK w sensie ?e nie o te zminna potrzbuje z Controllera-->
-    <div><br><br>
-        <h1> List &nbsp&nbsp  Components &nbsp&nbsp   for &nbsp&nbsp supplier: &nbsp&nbsp   [[${supplierName2}]]</h1>
-        <br><br>
+ <!-- @@@@@@@@@@@   MAIN SECTION   @@@@@@@@@@@ -->
+ <main id="site-main">
+ 
+    <div><p><a class="link1 text-center text-uppercase text-white " href="/suppliers" type="button">Go Back to Suppliers Page</a></p>
     </div>
-<!--    <div  th:="${supplierName2}"><h1> Components List ofr supplier : </h1></div>-->
+<!--    ten zapis jest ok jedynie zmienna [[${supplierName2}]] jest NOK w sensie ?e nie o te zminna potrzbuje z Controllera-->
+   
+  <div class="container text-center">
+    
+
+<!-- @@@@@@@@@@@  -- first table SECTION   @@@@@@@@@@@ -->
+<section class="container   supplier">
+            <div class="grid sup-name  text-center ">
+                            <div class="grid-one ">
+                                <h0 class= "text-xl text-darkblue ">[[${supplierName2}]] </h0>                                   
+                            </div>
+                    
+                            <div class="grid grid-two text-lg text-light text-uppercase">
+                                <th class="supplier-data"> supplier total score </th>
+                            </div>
+                          
+                            <div class="grid grid-three text-2xl ">                      
+                            
+                                <!-- kolor bedzie działł jesli zastosujemy odpowiednią zmienna typu Double np. aktualnie jest String -->
+                               <p th:class="${supplierTotalScore gt 89} ? 'above-avg-comp' : (${supplierTotalScore gt 79} ? 'just-avg-comp' : 'below-avg-comp')"> [[${supplierTotalScore}]] </p>
+                               
+                               
+                            </div>
+                            <div class="grid grid-four  text-lg  text-light text-uppercase ">
+ 
+                                    <th class="supplier-data">supplier classification</th>
+ 
+                            </div> 
+                            <div class="grid grid-five text-2xl">
+                               
+                               <p th:class="${supplierTotalScore gt 89} ? 'above-avg-comp' : (${supplierTotalScore gt 79} ? 'just-avg-comp' : 'below-avg-comp')"> [[${supplierClass}]] </p>
+                            </div>
+                            <div class="grid grid-six text-2xl ">
+                               
+                               <img src="../../static/stellantis.jpg" th:src="@{/stellantis.jpg}" alt="stellantis" >
+                            </div>
+                            <div class="grid grid-seven text-2xl">
+                               
+                               <img src="../static/VW.jpg" th:src="@{/VW.jpg}" alt="VW" >
+                            </div>
+
+       		</div>
+	    
+ </section>            
+<!-- @@@@@@@@@@@  -/- first table  SECTION   @@@@@@@@@@@ -->
     <div>
         <table class="table_component" >
             <thead class="thead-dark">
@@ -64,7 +91,29 @@
             </tr>
             </thead>
             <tbody  class="table_component" >
-            <th:block th:each="component : ${lista2}">
+            <th:block th:each="component : ${listaPSCPS}">
+                <tr>
+                    <td th:class="just-avg-audit">[[${component.primaPlant}]]</td>
+                    <td th:class="just-avg-audit">[[${component.sapName}]]</td>
+                    <td th:class="just-avg-audit">[[${component.sapNumber}]]</td>
+                    <td th:class="just-avg-audit">[[${component.id_Sap}]]</td>
+                    <td th:class="just-avg-audit">[[${component.customer}]]</td>
+                    <td th:class="${component.ppm ==100} ? 'above-avg-comp' : (${component.ppm == 0} ? 'just-avg-comp' : 'below-avg-comp')">[[${component.ppm}]]</td>
+                    <td th:class="${component.certificate == 100} ? 'above-avg-comp' : (${component.certificate == 80} ? 'just-avg-comp' : 'below-avg-comp')">[[${component.certificate}]]</td>
+                    <td th:class="${component.approval == 100} ? 'above-avg-comp' : (${component.approval == 110} ? 'just-avg-comp' : 'below-avg-comp')">[[${component.approval}]]</td>
+                    <td th:class="${component.auditResult == 'N/A'} ? 'just-avg-audit' : (${component.auditResult == '100'} ? 'above-avg-audit' : 'below-avg-audit')">[[${component.auditResult}]]</td>
+                    <td th:class="${component.pscr == 'N/A'} ? 'just-avg-audit' : (${component.pscr == '100'} ? 'above-avg-audit' : 'below-avg-audit')">[[${component.pscr}]]</td>
+                    <td th:class="${component.location == '100'} ? 'above-avg-comp' : (${component.location == '80'} ? 'just-avg-comp' : 'below-avg-comp')">[[${component.location}]]</td>
+                    <td th:class="${component.deliveryDeley == '100'} ? 'above-avg-comp' : (${component.deliveryDeley == '0'} ? 'just-avg-comp' : 'below-avg-comp')">[[${component.deliveryDeley}]]</td>
+                    <td th:class="${component.interference == '100'} ? 'above-avg-comp' : (${component.interference == '0'} ? 'just-avg-comp' : 'below-avg-comp')">[[${component.interference}]]</td>
+                    <td th:class="${component.collaboration == '100'} ? 'above-avg-comp' : (${component.collaboration == '0'} ? 'just-avg-comp' : 'below-avg-comp')">[[${component.collaboration}]]</td>
+                    <td th:class="${component.averageScore gt 89} ? 'above-avg-comp' : (${component.averageScore gt 79} ? 'just-avg-comp' : 'below-avg-comp')">[[${component.averageScore}]]</td>
+
+
+                </tr>
+
+            </th:block>
+            <th:block th:each="component : ${listaPSAPT}">
                 <tr>
                     <td th:class="just-avg-audit">[[${component.primaPlant}]]</td>
                     <td th:class="just-avg-audit">[[${component.sapName}]]</td>
@@ -91,5 +140,8 @@
     </div>
 
 </div>
+ 
+</main>
+ <!-- @@@@@@@@@@@   MAIN SECTION   @@@@@@@@@@@ -->
 </body>
 </html>

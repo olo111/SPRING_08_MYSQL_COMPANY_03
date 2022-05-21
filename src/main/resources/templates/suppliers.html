@@ -8,47 +8,20 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../static/style.css" th:href="@{style.css}">
 
 </head>
-<!--<style>-->
-<!--    table {-->
-<!--        border: 2px solid black;-->
-<!--        border-collapse: collapse;-->
-<!--        max-width: 1000px;-->
-<!--        width: 100%;-->
-<!--    }-->
-<!--    td {-->
-<!--        border: 2px solid black;-->
-<!--    }-->
-<!--    .good{-->
-<!--        background-color: goldenrod;-->
 
-<!--    }-->
-<!--</style>-->
 <body>
-<link rel="stylesheet" href="../static/style.css" th:href="@{style.css}">
-<nav class="navbar navbar-expand-md bg-dark navbar-dark">
-    <!-- Brand -->
-    <a class="navbar-brand" href="#">SUPPLIER  Management System</a>
 
-    <!-- Toggler/collapsibe Button -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+<!-- @@@@@@@@@@@   HEADER SECTION   @@@@@@@@@@@ -->
+<header th:replace="fragments :: header"></header>
 
-    <!-- Navbar links -->
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" th:href="@{/assessment}">SUPPLIER Assessment</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" th:href="@{/complaints_mgm}">COMPLAINTS Management</a>
-            </li>
-        </ul>
+  
+<!-- @@@@@@@@@@@  -/- HEADER SECTION   @@@@@@@@@@@ -->
+
+<div ><p><a class="link1 text-center text-uppercase text-white " th:href = "@{/}" type="button" >Go Back to Home Page</a></p>
     </div>
-</nav>
-
 <div class="container text-center">
     <br></br>
     <br>
@@ -72,7 +45,7 @@
                 <tr>
                     <td th:class="${supplier.totalScore gt 90} ? 'above-avg' : (${supplier.totalScore gt 80} ? 'just-avg' : 'below-avg')">[[${supplier.id}]]</td>
                     <td th:class="${supplier.totalScore gt 90} ? 'above-avg-link' : (${supplier.totalScore gt 80} ? 'just-avg-link' : 'below-avg-link')">
-                        <a th:href="@{'/suppliers/show/'+${supplier.id_Sap}}" >[[${supplier.name}]]</a>&nbsp;
+                        <a class=" text-center text-uppercase text-white " th:href="@{'/suppliers/show/'+${supplier.id_Sap}}" >[[${supplier.name}]]</a>&nbsp;
                     </td>
                     <!--            <td><a th:href="@{'/suppliers/show/'+${supplier.id_Sap}}"></a>[[${supplier.name}]]</td>-->
                     <td th:class="${supplier.totalScore gt 90} ? 'above-avg' : (${supplier.totalScore gt 80} ? 'just-avg' : 'below-avg')">[[${supplier.id_Sap}]]</td>

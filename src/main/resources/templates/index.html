@@ -2,86 +2,83 @@
 
 <html xmlns:th="http://www.thymeleaf.org"
       th:with="lang=${#locale.language}" th:lang="${lang}">
-<!--<style>-->
-<!--    .container {-->
-<!--        display: inline-block;-->
-<!--    }-->
-
-<!--    .container a {-->
-<!--        color: black;-->
-<!--        float: left;-->
-<!--        padding: 5px 5px;-->
-<!--        text-decoration: none;-->
-<!--    }-->
-
-<!--    .container a.active {-->
-<!--        background-color: gray;-->
-<!--        color: white;-->
-<!--        border-radius: 2px;-->
-<!--    }-->
-<!--</style>-->
 <head>
-<meta charset ="ISO-8859-1" >
-    <title> SUPPLIERS  QUALITY  MANAGEMENT  Homepage</title>
-    <link rel="stylesheet" type="text/css" th:href="@{/webjars/bootstrap/css/bootstrap.min.css}">
+         <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css" integrity="sha512-Oy+sz5W86PK0ZIkawrG0iv7XwWhYecM3exvUtMKNJMekGFJtVAhibhRPTpmyTj8+lJCkmWfnpxKgT2OopquBHA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!--    <meta charset ="ISO-8859-1" >-->
+        <!-- stylesheet -->
+           <link rel="stylesheet" href="../static/style.css" th:href="@{style.css}">
+<!--        <meta charset ="ISO-8859-1" >-->
+        <title > SUPPLIERS  QUALITY  MANAGEMENT  Homepage</title>
+<!--        <link rel="stylesheet" type="text/css" th:href="@{/webjars/bootstrap/css/bootstrap.min.css}">-->
 </head>
 
 <body>
 
-<!--=======================***********************====================================-->
-<!--=========NAG?ÓWEK NAG?ÓWEK  ==================================================-->
-<nav class="navbar navbar-expand-md bg-dark navbar-dark">
-    <!-- Brand -->
-    <a class="navbar-brand" href="#">QUALITY  SUPPLIER  Management System</a>
+<!-- @@@@@@@@@@@   HEADER SECTION   @@@@@@@@@@@ -->
+<header th:replace="fragments :: header"></header>
 
-    <!-- Toggler/collapsibe Button -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <!-- Navbar links -->
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" th:href="@{/assessment}">SUPPLIER Assessment</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" th:href="@{/complaints_mgm}">COMPLAINTS Management</a>
-            </li>
-        </ul>
-    </div>
-</nav>
+  
+<!-- @@@@@@@@@@@  -/- HEADER SECTION   @@@@@@@@@@@ -->
 <!--===================================================================================-->
-    <div class="container text-center">
-    <div><h1>Welcome &nbsp to &nbsp SUPPLIERS &nbsp  QUALITY &nbsp MANAGEMENT &nbsp&nbsp Homepage</h1></div>
-        <br>
-        <br>
-        <div class ="p-2">
-            <a class="h2" th:href="@{/suppliers}">List Suppliers</a>
-        </div>
-        <br>
-        <br>
-
-        <div class ="l-2">
-            <a class="h2" th:href="@{/suppliers/new}">Create Supplier </a>
-        </div>
-        <br>
-        <br>
-        <div class ="p-2">
-            <a class="h2" th:href="@{/components}">List Components</a>
-            <br>
-            <br>
-            <div class ="l-2">
-                <a class="h2" th:href="@{/components/new}">Create Component </a>
+<!-- @@@@@@@@@@@   MAIN SECTION   @@@@@@@@@@@ -->
+<main id="site-main">
+                    <!-- http://localhost:8080/ -->
+    <!-- SECTION BRAND -->
+    <section id="brand" class ="row">
+        <!-- Å¼adnego marginesu
+         -->
+       
+            <!-- wprowadzamy zdjÄ™cie logo STELLANTIS  -->
+            <!-- dla tej clasy img-fluid beda pewne specyficz\ne kolumny etc.  -->
+            <!-- col -lg -2 tylko  lg-large 2 kolumny  -->
+            <!-- col-md-4 md -middium tu 4 kolumny  -->
+            <!--  i na koncu col-6  -szesc kolumn -->
+            <img class="img-fluid col-lg-2 col-md-4 col-6" src="/images/brand/brandStellantis.jpg" alt="">
+            <img class="img-fluid col-lg-2 col-md-4 col-6" src="/images/brand/brandAudi.jpg" alt="">
+            <img class="img-fluid col-lg-2 col-md-4 col-6" src="/images/brand/brandCrysler.jpg" alt="">
+            <img class="img-fluid col-lg-2 col-md-4 col-6" src="/images/brand/brandFIAT.jpg" alt="">
+            <img class="img-fluid col-lg-2 col-md-4 col-6" src="/images/brand/brndVW.jpg" alt="">
+            <img class="img-fluid col-lg-2 col-md-4 col-6" src="/images/brand/brandPSA_G.jpg" alt="">
+       
+    </section>
+    <!--// SECTION BRAND -->
+    <!-- digital life area -->
+    <section class="container mx-auto life-area ">
+        <div class="plaster"></div>
+         <a th:href="@{/suppliers}">
+             <img  src="../static/img3.png"   th:src="@{/img3.png}" alt="Logo PRIMA" width="45" height="65">
+         </a>
+        <div class="grid cols-1 lg-cols-2 text-center md-text-left">
+            <div class="grid-images">
+                <div class="item-one"></div>
+                <div class="item-two"></div>
+                <div class="item-three"></div>
+            </div>
+            <div class="py-10">
+                <span class="d-inline btn btn-primary bg-gradient-peach text-red">digital experience</span>
+                <div class="font-poppins">
+                    <h1 class="text-lg text-dark py-5">
+                        Connect people in<br>
+                        digital life
+                    </h1>
+                    <p class="py-5 text-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus repellat laborum iure illum quae quidem at suscipit obcaecati labore esse tenetur facilis sit, molestiae explicabo rerum illo architecto. Mollitia, rerum! </p>
+                    <p class="text-gray py-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus qui earum architecto atque! Voluptatum placeat ipsam repellendus quasi atque expedita, nesciunt doloremque deleniti soluta optio!
+                    </p>
+                    <div class="py-5">
+                        <a href="#" class="btn btn-primary bg-gradient btn-shadow text-white"> More about us </a>
+                    </div>
+                </div>
             </div>
         </div>
-<!--            <div class ="p-2">-->
-<!--            <a class="h2" th:href="@{/brands}">List Brands</a>-->
-<!--            </div>-->
-<!--        <div class ="p-2">-->
-<!--            <a class="h2" th:href="@{/brands/new}">Create Brand </a>-->
-<!--        </div>-->
-</div>
-
+    </section>
+    <!--  /  digital life area -->
+</main>
+<!-- @@@@@@@@@@@  /   MAIN SECTION   @@@@@@@@@@@ -->
+<footer th:replace="fragments :: footer"></footer>
+<script async src="/main.js" th:src="@{/main.js}" defer="defer" ></script>
 </body>
+
 </html>

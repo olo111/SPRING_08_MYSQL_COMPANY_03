@@ -23,7 +23,9 @@ public class ComponentController {
     private ComponentRepository componentRepo;
     @Autowired
     private SupplierRepository supplierRepository;
-
+  public  ComponentController     (ComponentRepository componentRepo) {
+       this.componentRepo = componentRepo;
+   }
     @GetMapping("/components/new")
     public  String showProductsForm(Model model){
         List<Supplier> listSuppliers = supplierRepository.findAll();

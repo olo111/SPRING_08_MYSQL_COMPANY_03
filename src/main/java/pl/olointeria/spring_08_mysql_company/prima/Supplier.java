@@ -1,6 +1,6 @@
 package pl.olointeria.spring_08_mysql_company.prima;
 
-import pl.olointeria.spring_08_mysql_company.component.Component;
+//import pl.olointeria.spring_08_mysql_company.component.Component;
 
 import javax.persistence.*;
 import java.util.ArrayList;
