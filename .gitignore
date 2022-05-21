@@ -31,5 +31,26 @@ build/
 
 ### VS Code ###
 .vscode/
-.images
-.orginal
+### foldery dodane do .gitignore recznie
+images
+
+main.rar
+3DL_exampl.jpg
+components.jpg
+
+assets
+01_SUPPLIER_ASSESSMENT_01.csv
+01_SUPPLIER_ASSESSMENT_03_dos.csv
+001.csv
+02_SUPPLIER ASSESSMENT.csv
+002.csv
+002.xlsx
+components.csv
+javastart01.jpg
+opis.txt
+supplier.csv
+Suppliers_utf.csv
+Suppliers_utf02.csv
+Suppliers_utf03.csv
+wzorzec.csv
+
