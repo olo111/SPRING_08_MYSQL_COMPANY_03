@@ -22,7 +22,7 @@ import java.util.Optional;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import javax.xml.XMLConstants;
-@RestController
+//@RestController
 @Controller
 public class SupplierController {
     @Autowired
@@ -176,11 +176,11 @@ public class SupplierController {
     //@RequestMapping("classification")
  
     	
- @RequestMapping(value="/classification", method = RequestMethod.GET)
- public String classification() {
-   return "supplier/classificationChart";
- }
-            
+// @RequestMapping(value="/classification", method = RequestMethod.GET)
+// public String classification() {
+//   return "supplier/classificationChart";
+// }
+//
             
             @GetMapping( value="api/SupClassification", produces = MediaType.APPLICATION_JSON_VALUE)
              List<SupClassification>   getSupClassification() {
