@@ -1,4 +1,4 @@
-package pl.olointeria.spring_08_mysql_company.component;
+package pl.olointeria.spring_08_mysql_company.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Pageable;
@@ -8,6 +8,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import pl.olointeria.spring_08_mysql_company.component.ComponentPSCPS;
+import pl.olointeria.spring_08_mysql_company.component.ComponentPSCPSRepository;
 import pl.olointeria.spring_08_mysql_company.prima.SupplierRepository;
 import pl.olointeria.spring_08_mysql_company.prima.Supplier;
 

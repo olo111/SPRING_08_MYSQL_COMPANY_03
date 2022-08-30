@@ -1,4 +1,4 @@
-package pl.olointeria.spring_08_mysql_company.component;
+package pl.olointeria.spring_08_mysql_company.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Pageable;
@@ -8,6 +8,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import pl.olointeria.spring_08_mysql_company.component.ComponentPSAPT;
+import pl.olointeria.spring_08_mysql_company.component.ComponentPSAPTRepository;
 import pl.olointeria.spring_08_mysql_company.prima.SupplierRepository;
 import pl.olointeria.spring_08_mysql_company.prima.Supplier;
 
@@ -17,19 +19,17 @@ import java.util.Collections;
 import java.util.List;
 
 @Controller
-public class ComponentController {
+public class ComponentPSAPTController {
 
     @Autowired
-    private ComponentRepository componentRepo;
+    private ComponentPSAPTRepository componentPSAPTRepo;
     @Autowired
     private SupplierRepository supplierRepository;
-  public  ComponentController     (ComponentRepository componentRepo) {
-       this.componentRepo = componentRepo;
-   }
-    @GetMapping("/components/new")
+
+    @GetMapping("/componentsPSAPT/new")
     public  String showProductsForm(Model model){
         List<Supplier> listSuppliers = supplierRepository.findAll();
-        model.addAttribute("product", new Component());
+        model.addAttribute("product", new ComponentPSAPT());
        model.addAttribute("listSuppliers", listSuppliers);
         return "product_form";
     }
@@ -51,12 +51,12 @@ public class ComponentController {
 //
 //        return "redirect:/components";
 //    }
-    @GetMapping("/components")
+    @GetMapping("/components_PSAPT")
     public  String showListComponents(Model model){
-        List<Component> listComponents =componentRepo.findAll();
+        List<ComponentPSAPT> listPSAPTComponents = componentPSAPTRepo.findAll();
 
-        model.addAttribute("listComponents", listComponents);
-        return "components";
+        model.addAttribute("listPSAPTComponents", listPSAPTComponents);
+        return "components_PSAPT";
     }
 
 //    @GetMapping("/components/delete/{id}")

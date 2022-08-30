@@ -1,8 +1,13 @@
+
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+		 pageEncoding="ISO-8859-1"%>
+
 <!DOCTYPE html>
-<html lang="pl" xmlns:th="http://www.thymeleaf.org">
+<html>
+<%--<html lang="pl" xmlns:th="http://www.thymeleaf.org">--%>
 
 <head>
-    <meta charset="UTF-8">
+<%--    <meta charset="UTF-8">--%>
     
    
 <!--    <link rel="stylesheet" href="../../static/style.css" th:href="@{style.css}">-->
@@ -18,7 +23,7 @@
 				type: 'GET',
 				dataType:"json",
 				contentType:"application/json",
-				url:'${pageContext.request.contextPath}/api/product/findall',
+				url:'${pageContext.request.contextPath}/api/SupClassification',
 				success:function(result){
 					google.charts.load('current',{
 						'packages':['corechart']
@@ -31,11 +36,11 @@
 			function drawChart(result){
 				
 				var data = new google.visualization.DataTable();
-				data.addColumn('string', 'Name');
-				data.addColumn('number','Quantity');
+				data.addColumn('string', 'Classification');
+				data.addColumn('number','Number Suppliers');
 				var dataArray =[];
 				$.each(result, function(i,obj){
-					dataArray.push([obj.name, obj.quantity]);
+					dataArray.push([obj.classification, obj.numberSuppliers]);
 					});
 				
 					data.addRows(dataArray);
@@ -67,7 +72,7 @@
 </head>
 <body>
 <!-- @@@@@@@@@@@   HEADER SECTION   @@@@@@@@@@@ -->
-<header th:replace="fragments :: header"></header>
+<%--<header th:replace="fragments :: header"></header>--%>
 <!-- @@@@@@@@@@@  -/- HEADER SECTION   @@@@@@@@@@@ -->
 		<table class = "columns">
 		<tr>

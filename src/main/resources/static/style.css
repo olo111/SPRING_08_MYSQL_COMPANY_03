@@ -219,7 +219,51 @@ box-shadow: 0 5px 10px rgb(0 0 0 / 10%);
     border-radius: 12px;
     cursor:pointer;
 }
+.wylog{
+    /*margin-top: 50px;*/
+    padding: .8rem 2rem;
+    border-radius: 50px;
+    font-family: var(--font-poppins);
+    background: var(--bg-gradient-gray) !important;
+    font-weight: bold;
+    position:absolute !important;
+    /* powoduje że przycik przesuwa sie totalnie na prawo */
+    right:20px;top:-20px !important;
+}
+.link2{
+    height: 25px;
+    width:270px;
+    position:absolute;
+    /* powoduje że przycik przesuwa sie totalnie na prawo */
+    right:0;top:175px;
+    color:var(--text-dark2);
+    font-weight: bold;
+    background: var(--bg-gradient-gray);
+    border-radius: 12px;
+    cursor:pointer;
+}.link3{
+     height: 25px;
+     width:270px;
+     position:absolute;
+     /* powoduje że przycik przesuwa sie totalnie na prawo */
+     right:0;top:225px;
+     color:var(--text-dark2);
+     font-weight: bold;
+     background: var(--bg-gradient-gray);
+     border-radius: 12px;
+     cursor:pointer;
+ }
 .link1:hover{
+    color:var(--text-dark2);
+    font-weight: bold;
+    background: var(--bg-gradient-silver);
+}
+.link2:hover{
+    color:var(--text-dark2);
+    font-weight: bold;
+    background: var(--bg-gradient-silver);
+}
+.link3:hover{
     color:var(--text-dark2);
     font-weight: bold;
     background: var(--bg-gradient-silver);
@@ -722,6 +766,16 @@ table {
 table, th, td {
     border: 3px solid black;
     border-collapse: collapse;
+    text-align: center;
+
+}
+.table_cl {
+    /*border: 3px solid black;*/
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 300px;
 }
 .table_component, th, td{
     border: 3px solid black;
@@ -733,13 +787,13 @@ table, th, td {
     background-color: black;
     border: 3px solid bisque;
     border-collapse: collapse;
-}
+    }
 .table_empty{
     color: transparent;
     border: 0px transparent !important;
     background-color: transparent  !important;
     border: 3px solid transparent !important;
-    border-collapse: t;
+    border-collapse: collapse;
 }
 .thead-darkblue{
     color: lightgoldenrodyellow;

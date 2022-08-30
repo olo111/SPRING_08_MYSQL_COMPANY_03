@@ -121,3 +121,10 @@ PROBLEM Z KOLOROWANIEM KOMOREK W TABELI KOMPONENTOW DLA DOSTAWCY ALE JUZ TO PEEK
 ROZWIAZANIE:  ADRESY
 <!-- TERAZ JEST POPRAWNA JEZELI CHODZI O TABELE DLA COMPONENTÓW DLA DOSTAWCY -->
 <link rel="stylesheet" href="../static/style.css" th:href="@{../../style.css}">
+22052022
+utworzyć w service metodą która utworzy listę lub coś na kształt kontenera
+z wszystkimi objekatmi SupplierDto -= to samo co w efekcie daje metoda repoSupplier.findAll
+Nie jest to dobra droga nie wprowadza nic pozytywnego
+aktualinie należy sprawdzić różnice w zapisie Controller i Rest Controller i odniesieniach do punktów i do pliku
+być może to kontroler odsyła do pliku a RestControler tylko do punktu krancowegpo
+

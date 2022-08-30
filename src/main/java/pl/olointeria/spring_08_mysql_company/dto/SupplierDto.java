@@ -1,7 +1,7 @@
 package  pl.olointeria.spring_08_mysql_company.dto;
 
 
-class SupplierDto {
+public class SupplierDto {
 
     
     private Integer id;
@@ -40,7 +40,8 @@ class SupplierDto {
 		this.totalScore = totalScore;
 	}
 
-    
-    
+
+    public void add(int i, SupplierDto listSuppliersDto) {
+    }
 }
 

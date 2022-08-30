@@ -1,4 +1,4 @@
-package pl.olointeria.spring_08_mysql_company.prima;
+package pl.olointeria.spring_08_mysql_company.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -21,6 +21,10 @@ import java.util.List;
 import java.util.Optional;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
+import pl.olointeria.spring_08_mysql_company.prima.SupClassification;
+import pl.olointeria.spring_08_mysql_company.prima.Supplier;
+import pl.olointeria.spring_08_mysql_company.prima.SupplierRepository;
+
 import javax.xml.XMLConstants;
 //@RestController
 @Controller
@@ -40,7 +44,7 @@ public class SupplierController {
   // public SupplierController(ComponentRepository componentRepo) {
    //    this.componentRepo = componentRepo;
   // }
-    @GetMapping("/")
+    @GetMapping("/home")
     String home() {
         //ewentualna logika metody
         return "index.html"; //nazwa pliku w katalogu /templates
@@ -173,47 +177,19 @@ public class SupplierController {
        return "redirect:/suppliers";
 
     }
-    //@RequestMapping("classification")
- 
-    	
-// @RequestMapping(value="/classification", method = RequestMethod.GET)
-// public String classification() {
-//   return "supplier/classificationChart";
-// }
-//
-            
-            @GetMapping( value="api/SupClassification", produces = MediaType.APPLICATION_JSON_VALUE)
-             List<SupClassification>   getSupClassification() {
-                 List<Supplier> listSuppliers = repo.findAll();
+    @RequestMapping(value="classification", method = RequestMethod.GET)
+    public String classification(Model model) {
+        //model.addAttribute("listSubClass",listSupClass);
+       // model.addAttribute("supplierName2", supplierName2);
 
-               int NumberSuppliersA=0;
-                int NumberSuppliersB=0;
-                int NumberSuppliersC=0;
-                for (Supplier supplier:listSuppliers) { 
-
-                     if( supplier.getClassification().equals("A")){
-                         NumberSuppliersA++;                           
-                         }
-                     if( supplier.getClassification().equals("B")){
-                         NumberSuppliersB++;                           
-                         }
-                     if( supplier.getClassification().equals("C")){
-                          NumberSuppliersC++;                           
-                         }                
-             }
-             return List.of(
-                 new SupClassification( "A", NumberSuppliersA),
-                 new SupClassification( "B", NumberSuppliersB),
-                new SupClassification( "C", NumberSuppliersC)
-             );
-
-         }
-    
-    @GetMapping("/supplier/{id}")
-    Optional<Supplier> getSupplierById(@PathVariable Integer id) {
-        return repo.findById(id);
+        return "supplier/chart";
     }
+    @RequestMapping(value="getClassification", method = RequestMethod.GET)
+    public String getClassification(Model model) {
+        //model.addAttribute("listSubClass",listSupClass);
+        // model.addAttribute("supplierName2", supplierName2);
 
-
+        return "supplier/getClassification";
+    }
 
 }
