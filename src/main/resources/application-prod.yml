@@ -21,10 +21,19 @@
 
 
 #  dla uruchomienia na dysku moim
+#spring:
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/prima_sosnowiec
+#    username: root
+#    password: 11mysql11
+#  liquibase:
+#    contexts: prod
+
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/prima_sosnowiec
+    url: jdbc:mysql://mysql:3306/prima_sosnowiec
     username: root
     password: 11mysql11
   liquibase:
