@@ -19,58 +19,59 @@
 <!-- @@@@@@@@@@@   MAIN SECTION   @@@@@@@@@@@ -->
 <main id="site-main">
 
-    <div ><p><a class="link1 text-center text-uppercase text-white "  href="/components_PSCPS"  type="button" >Go Back to Home Page</a></p>
+    <div ><p><a class="link1 text-center text-uppercase text-white "  href="/suppliersPSCPS"  type="button" >Go Back to Home Page</a></p>
     </div>
 
 
     <div class="container text-center">
 
-        <!-- @@@@@@@@@@@  -- first table SECTION   @@@@@@@@@@@ -->
-<!--        <section class="container   supplier">-->
-<!--            <div class="grid sup-name  text-center ">-->
-<!--                <div class="grid-one ">-->
-<!--                    <h0 class= "text-xl text-darkblue ">[[${supplierName2}]] </h0>-->
-<!--                </div>-->
+<!--         @@@@@@@@@@@  &#45;&#45; first table SECTION   @@@@@@@@@@@-->
+                <section class="container   supplier">
+                    <div class="grid sup-name  text-center ">
+                        <div class="grid-one ">
+                            <h0 class= "text-xl text-darkblue ">[[${supplierName2}]] </h0>
+                        </div>
 
-<!--                <div class="grid grid-two text-lg text-light text-uppercase">-->
-<!--                    <th class="supplier-data"> supplier total score </th>-->
-<!--                </div>-->
+                        <div class="grid grid-two text-lg text-light text-uppercase">
+                            <th class="supplier-data"> supplier total score </th>
+                        </div>
 
-<!--                <div class="grid grid-three text-2xl ">-->
+                        <div class="grid grid-three text-2xl ">
 
-<!--                    &lt;!&ndash; kolor bedzie działł jesli zastosujemy odpowiednią zmienna typu Double np. aktualnie jest String &ndash;&gt;-->
-<!--                    <p th:class="${supplierTotalScore gt 89} ? 'above-avg-comp' : (${supplierTotalScore gt 79} ? 'just-avg-comp' : 'below-avg-comp')"> [[${supplierTotalScore}]] </p>-->
+                            <!-- kolor bedzie działł jesli zastosujemy odpowiednią zmienna typu Double np. aktualnie jest String -->
+                            <p th:class="${supplierTotalScore gt 89} ? 'above-avg-comp' : (${supplierTotalScore gt 79} ? 'just-avg-comp' : 'below-avg-comp')"> [[${supplierTotalScore}]] </p>
 
 
-<!--                </div>-->
-<!--                <div class="grid grid-four  text-lg  text-light text-uppercase ">-->
+                        </div>
+                        <div class="grid grid-four  text-lg  text-light text-uppercase ">
 
-<!--                    <th class="supplier-data">supplier classification</th>-->
+                            <th class="supplier-data">supplier classification</th>
 
-<!--                </div>-->
-<!--                <div class="grid grid-five text-2xl">-->
+                        </div>
+                        <div class="grid grid-five text-2xl">
 
-<!--                    <p th:class="${supplierTotalScore gt 89} ? 'above-avg-comp' : (${supplierTotalScore gt 79} ? 'just-avg-comp' : 'below-avg-comp')"> [[${supplierClass}]] </p>-->
-<!--                </div>-->
-<!--                <div class="grid grid-six text-2xl ">-->
+                            <p th:class="${supplierTotalScore gt 89} ? 'above-avg-comp' : (${supplierTotalScore gt 79} ? 'just-avg-comp' : 'below-avg-comp')"> [[${supplierClass}]] </p>
+                        </div>
+                        <div class="grid grid-six text-2xl ">
 
-<!--                    <img src="../../static/stellantis.jpg" th:src="@{/stellantis.jpg}" alt="stellantis" >-->
-<!--                </div>-->
-<!--                <div class="grid grid-seven text-2xl">-->
+                            <img src="../../static/stellantis.jpg" th:src="@{/stellantis.jpg}" alt="stellantis" >
+                        </div>
+                        <div class="grid grid-seven text-2xl">
 
-<!--                    <img src="../static/VW.jpg" th:src="@{/VW.jpg}" alt="VW" >-->
-<!--                </div>-->
+                            <img src="../static/VW.jpg" th:src="@{/VW.jpg}" alt="VW" >
+                        </div>
 
-<!--            </div>-->
+                    </div>
 
-<!--        </section>-->
-        <!-- @@@@@@@@@@@  -/- first table  SECTION   @@@@@@@@@@@ -->
-        <br><br><br><br><br><br>
+                </section>
+<!--         @@@@@@@@@@@  -/- first table  SECTION   @@@@@@@@@@@-->
         <div>
-            <table class="table_component"  >
+            <table class="table_component" >
                 <thead class="thead-dark">
+                <br>
+
                 <tr>
-                    <!--                <th>ID </th>-->
+                    <!--                <th>1. ID </th>-->
                     <th> PLANT </th>
                     <th> SUPPLIER </th>
                     <th class=" col-sm-80">SAP_NAME</th>

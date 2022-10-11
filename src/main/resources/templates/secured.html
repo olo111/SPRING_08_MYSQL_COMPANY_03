@@ -41,10 +41,12 @@
         <!-- col-md-4 md -middium tu 4 kolumny  -->
         <!--  i na koncu col-6  -szesc kolumn -->
         <img class="img-fluid col-lg-2 col-md-4 col-6" src="/images/brand/brandStellantis.jpg" alt="">
-        <img class="img-fluid col-lg-2 col-md-4 col-6" src="/images/brand/audi.png" alt="">
         <img class="img-fluid col-lg-2 col-md-4 col-6" src="/images/brand/brandCrysler.jpg" alt="">
-        <img class="img-fluid col-lg-2 col-md-4 col-6" src="/images/brand/brandFIAT.jpg" alt="">
+        <img class="img-fluid col-lg-2 col-md-4 col-6" src="/images/brand/audi.png" alt="">
+
+
         <img class="img-fluid col-lg-2 col-md-4 col-6" src="/images/brand/volkswagen.png" alt="">
+        <img class="img-fluid col-lg-2 col-md-4 col-6" src="/images/brand/brandFIAT.jpg" alt="">
         <img class="img-fluid col-lg-2 col-md-4 col-6" src="/images/brand/brandPSA_G.jpg" alt="">
 
     </section>
@@ -53,7 +55,7 @@
         <a th:if="${#authentication.isAuthenticated()}"
            th:text="|LOG OUT|"
            th:href="@{/logout}">Wyloguj się John "
-        <span class="btn btn-primary bg-gradient btn-shadow text-white">
+        <span class="btn btn-primary bg-gradient btn-shadow wylog text-white">
 
 
         </span>
@@ -64,9 +66,76 @@
     </div>
 
 
+
     <!--// SECTION BRAND -->
     <!-- digital life area -->
     <section class="container mx-auto life-area ">
+
+            <br><br><br><br>
+            <div class="rowhex">
+
+                <h1 class="heading6">QUALITY SUPPLIERS MANAGEMENT PRIMA SOSNOWIEC POLAND </h1>
+                <h2 style="text-align: center;">customer satisfaction &amp; quality tools</h2><br><br><br>
+                <div class="hexcontainer">
+                    <!-- <img data-aos="fade-in" data-aos-easing="ease-out-cubic" data-aos-duration="2000" data-aos-delay="2000" src="../static/images/bphex.png" class="heximg aos-init aos-animate"> -->
+                    <!-- <img data-aos="fade-in" data-aos-easing="ease-out-cubic" data-aos-duration="2000" data-aos-delay="2000" src="../static/images/securetrack-mobile-label-authentication.png" class="hexphone aos-init aos-animate"> -->
+                    <div  data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000" data-aos-delay="1500" class="hextitlecontainer aos-init aos-animate">
+                        <p class="hextitle">
+							<a href="suppliersPSCPS" class="link_hex"> PSCPS  SUPPLIERS <br>LIST </a>
+						</p>
+                    </div>
+                    <div data-aos="zoom-in" data-aos-delay="500" class="hexagon hexagonleft aos-init aos-animate">
+                        <p class="hexp hexpmargin">
+                        <a id="link_hex1" class="link_hex" href="components_PSCPS">Components List <br> PSCPS</a>
+                        </p>
+                    </div>
+                    <div data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-delay="700" class="hexagon hexagonright aos-init aos-animate">
+                        <p class="hexp hexpmargin">
+                            <a id="link_hex1" class="link_hex" href="components_PSAPT">Components List <br> PSAPT</a>
+                        </p>
+
+
+                    </div>
+                    <div data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" data-aos-delay="1500" class="hextitlecontainer aos-init aos-animate">
+                        <p class="hextitle">
+                            <a href="suppliersPSAPT" class="link_hex"> PSAPT  SUPPLIERS <br>LIST </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="hexcontainer2">
+                    <div data-aos="zoom-in" data-aos-easing="ease-out-cubic" class="hexagon hexagonleft aos-init aos-animate">
+                        <p class="hexp hexpmargin">
+                            <a id="link_hex1" class="link_hex" href="approvalManagemnt">Approval management </a>
+                        </p>
+                    </div>
+                    <div class="hexagon">
+                    </div>
+                    <div data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-delay="900" class="hexagon hexagonright aos-init aos-animate">
+                        <p class="hexp hexpmargin2">
+                        <a id="link_hex2"  href="Certificates" class="link_hex">Certificates<br> IATF / ISO 9001 </a>
+                        </p>
+<!--                        <p class="hexp"></p>-->
+                    </div>
+                </div>
+                <div class="hexcontainer3">
+                    <div data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-delay="1300" class="hexagon hexagonleft aos-init aos-animate">
+                        <p class="hexp hexpmargin">
+                        <a id="link_hex1" class="link_hex" href="ComplaintsManagementPSCPS">Complaints management <br> PSCPS suppliers</a>
+                        </p>
+                    </div>
+                    <div data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-delay="1100" class="hexagon hexagonright aos-init aos-animate">
+                        <p class="hexp hexpmargin">
+                            <a id="link_hex1" class="link_hex" href="ComplaintsManagementPSAPT">Complaints management <br> PSAPT suppliers</a>
+                        </p>
+                    </div>
+                </div>
+
+                <br><br>
+
+                <p data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-offset="200" class="hexp2 aos-init">quality experiences, interaction and trust.</p>
+            </div>
+        </section >
+        <!--// SECTION hexagon -->
         <div class="plaster"></div>
         <a th:href="@{/suppliers}">
             <img  src="../static/img3.png"   th:src="@{/img3.png}" alt="Logo PRIMA" width="45" height="65">
@@ -78,17 +147,17 @@
                 <div class="item-three"></div>
             </div>
             <div class="py-10">
-                <span class="d-inline btn btn-primary bg-gradient-peach text-red">digital experience</span>
+                <span class="d-inline btn btn-primary bg-gradient-peach text-red">quality experience</span>
                 <div class="font-poppins">
                     <h1 class="text-lg text-dark py-5">
-                        Connect people in<br>
-                        digital life
+                        give the trust<br>
+                        individual customer CSR
                     </h1>
                     <p class="py-5 text-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus repellat laborum iure illum quae quidem at suscipit obcaecati labore esse tenetur facilis sit, molestiae explicabo rerum illo architecto. Mollitia, rerum! </p>
                     <p class="text-gray py-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus qui earum architecto atque! Voluptatum placeat ipsam repellendus quasi atque expedita, nesciunt doloremque deleniti soluta optio!
                     </p>
                     <div class="py-5">
-                        <a href="#" class="btn btn-primary bg-gradient btn-shadow text-white"> More about us </a>
+                        <a href="#" class="btn btn-primary bg-gradient btn-shadow text-white"> Home page</a>
                     </div>
                 </div>
             </div>

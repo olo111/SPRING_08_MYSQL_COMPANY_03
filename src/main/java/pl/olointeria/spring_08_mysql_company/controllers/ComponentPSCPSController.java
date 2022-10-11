@@ -112,7 +112,7 @@ return "component/search_component";
     if(sapNumber.isEmpty()||!customer.isEmpty()){
         List<ComponentPSCPS> listComponentsPSCPSWhith_Customer = componentPSCPSRepo.findAll();
         List<ComponentPSCPS> listaPSCPSbyCustomer = nowalistaPSCPSByCustmer(listComponentsPSCPSWhith_Customer, customer );
-        model.addAttribute("listaPSCPSbyCustomer", listaPSCPSbyCustomer);
+        model.addAttribute("listPSCPSComponents", listaPSCPSbyCustomer);
         model.addAttribute("customer", customer);
         
 

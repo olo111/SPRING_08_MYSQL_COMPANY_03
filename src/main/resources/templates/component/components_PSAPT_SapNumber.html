@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>PSCPS COMPONENTS LIST by SapNumber</title>
+    <title>PSAPT COMPONENTS LIST by SapNumber</title>
     <link rel="stylesheet" href="../style/style.css">
     <link rel="stylesheet" href="../../static/style.css" th:href="@{/style.css}">
 </head>
@@ -19,8 +19,8 @@
 <!-- @@@@@@@@@@@   MAIN SECTION   @@@@@@@@@@@ -->
 <main id="site-main">
 
-    <div ><p><a class="link1 text-center text-uppercase text-white "  href="/components_PSCPS"  type="button" >Go Back to Home Page</a></p>
-    </div>
+<div ><p><a class="link1 text-center text-uppercase text-white "  href="/components_PSAPT"  type="button" >Go Back Page</a></p>
+</div>
 
 
     <div class="container text-center">
@@ -98,15 +98,13 @@
                         <a class=" text-center text-uppercase text-white " href="../classification/collaboration"  >  COLLABORATION  </a>&nbsp;                </th>
                     <th >
                         <a class=" text-center text-uppercase text-white " href="../classification/average_score"  >  AVERAGE SCORE  </a>&nbsp;                </th>
-
-                </tr>
                 </thead>
                 <tbody  class="table_component" >
-                <th:block th:each="component : ${listPSCPSComponents}">
+                <th:block th:each="component : ${listPSAPTComponents}">
                     <tr>
                         <td th:class="just-avg-audit">[[${component.primaPlant}]]</td>
                         <td th:class="just-avg-audit">
-                            <a class=" text-center text-uppercase text-white " th:href="@{'/suppliersPSCPS/show/'+${component.id_Sap}}" >[[${component.supplier}]]</a>
+                            <a class=" text-center text-uppercase text-white " th:href="@{'/suppliersPSAPT/show/'+${component.id_Sap}}" >[[${component.supplier}]]</a>
                         </td>
                         <td th:class="just-avg-audit">[[${component.sapName}]]</td>
                         <td th:class="just-avg-audit">[[${component.sapNumber}]]</td>

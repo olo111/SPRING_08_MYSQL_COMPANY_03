@@ -16,10 +16,10 @@
 <!-- @@@@@@@@@@@  -/- HEADER SECTION   @@@@@@@@@@@ -->
 
 
-    <div ><p><a class="link1 text-center text-uppercase text-white " th:href = "@{/}" type="button" >Go Back to Home Page</a></p>
+    <div ><p><a class="link1 text-center text-uppercase text-white " th:href = "@{/secured}" type="button" >Go Back to Home Page</a></p>
     </div>
-    <div>
-    <a th:href = "@{/}"  class="btn btn-primary bg-gradient btn-shadow text-white"> More about us </a></div>
+<div>
+    <a href ="component/search_componentPSAPT.html"  th:href = "@{/search_componentPSAPT}"  class="btn btn-primary bg-gradient btn-shadow text-white"> SEARCH COMPONENT </a></div>
    <div class="container text-center">
     <div>
         <br><br></br>
@@ -39,16 +39,27 @@
                 <th class=" col-sm-80">SAP NUMBER</th>
                 <th>id_Sap  </th>
                 <th>CUSTOMER</th>
-                <th>PPM  </th>
-                <th>CERTIFICATE</th>
-                <th> APPROVAL</th>
-                <th> AUDIT RESULT</th>
-                <th> PSCR </th>
-                <th> LOCATION </th>
-                <th> DELAYS </th>
-                <th> INTERFERENCE </th>
-                <th> COLLABORATION </th>
-                <th> AVERAGE SCORE </th>
+                <th >
+                    <a class=" text-center text-uppercase text-white " href="../classification/ppm"  >PPM</a>&nbsp;</th>
+                <th >
+                    <a class=" text-center text-uppercase text-white " href="../classification/certificate"  >CERTIFICATE</a>&nbsp;</th>
+                <th >
+                    <a class=" text-center text-uppercase text-white " href="../classification/approval"  >APPROVAL</a>&nbsp;</th>
+                <th >
+                    <a class=" text-center text-uppercase text-white " href="../classification/audit_result"  >AUDIT RESULT</a>&nbsp;</th>
+                <th>
+                    <a class=" text-center text-uppercase text-white " href="../classification/pscr"  > PSCR </a>&nbsp;</th>
+                <th >
+
+                    <a class=" text-center text-uppercase text-white " href="../classification/location"  > LOCATION </a>&nbsp;                </th>
+                <th >
+                    <a class=" text-center text-uppercase text-white " href="../classification/delays"  > DELAYS </a>           </th>
+                <th >
+                    <a class=" text-center text-uppercase text-white " href="../classification/interference"  >  INTERFERENCE  </a>&nbsp;                </th>
+                <th >
+                    <a class=" text-center text-uppercase text-white " href="../classification/collaboration"  >  COLLABORATION  </a>&nbsp;                </th>
+                <th >
+                    <a class=" text-center text-uppercase text-white " href="../classification/average_score"  >  AVERAGE SCORE  </a>&nbsp;                </th>
 
 
             </tr>
@@ -59,7 +70,7 @@
 <!--                    <td>[[${component.id}]]</td>-->
                     <td th:class="just-avg-audit">[[${component.primaPlant}]]</td>
                     <td th:class="just-avg-audit">                   
-                    	<a class=" text-center text-uppercase text-white " th:href="@{'/suppliers/show/'+${component.id_Sap}}" >[[${component.supplier}]]</a>
+                    	<a class=" text-center text-uppercase text-white " th:href="@{'/suppliersPSAPT/show/'+${component.id_Sap}}" >[[${component.supplier}]]</a>
                     </td>
                     <td th:class="just-avg-audit">[[${component.sapName}]]</td>
                     <td th:class="just-avg-audit">[[${component.sapNumber}]]</td>

@@ -160,7 +160,8 @@ ul{
 }
 .container{
     width:100%;
-    background-color: rgb(245, 243, 243);
+    /*zmiana wprowadzona aby był widoczny hwxagon*/
+    /*background-color: rgb(245, 243, 243);*/
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -222,13 +223,14 @@ box-shadow: 0 5px 10px rgb(0 0 0 / 10%);
 .wylog{
     /*margin-top: 50px;*/
     padding: .8rem 2rem;
-    border-radius: 50px;
+        border-radius: 50px;
     font-family: var(--font-poppins);
     background: var(--bg-gradient-gray) !important;
     font-weight: bold;
+    color:white; !important;
     position:absolute !important;
     /* powoduje że przycik przesuwa sie totalnie na prawo */
-    right:20px;top:-20px !important;
+    right:40px;top:80px !important;
 }
 .link2{
     height: 25px;
@@ -285,6 +287,7 @@ box-shadow: 0 5px 10px rgb(0 0 0 / 10%);
     font-weight: bold;
     position: absolute;
     right: 0px;
+    /*top:20px;*/
     /* background: var(--bg-gradient); */
 }
 .btn-search {
@@ -523,6 +526,23 @@ box-shadow: 0 5px 10px rgb(0 0 0 / 10%);
 .img{
     vertical-align: middle;
     border-style: none;
+}
+
+
+
+.img2{
+    vertical-align: center !important;
+}
+#img2{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    /*align: center;*/
+    transition: width 2s;
+    /*position:absolute;*/
+    /*right:500px;*/
+    /*top:300px;*/
 }
 .img-fluid{
     width: 150px;
@@ -765,7 +785,7 @@ table {
 
 table, th, td {
     border: 3px solid black;
-    border-collapse: collapse;
+    /*border-collapse: collapse;*/
     text-align: center;
 
 }
@@ -777,6 +797,10 @@ table, th, td {
     font-weight: bold;
     margin-left: 300px;
 }
+.table-casifi{
+    width: 90%;
+    min-height: 220px;
+}
 .table_component, th, td{
     border: 3px solid black;
     border-collapse: collapse;
@@ -787,6 +811,7 @@ table, th, td {
     background-color: black;
     border: 3px solid bisque;
     border-collapse: collapse;
+
     }
 .table_empty{
     color: transparent;
@@ -891,12 +916,378 @@ grid-template-rows: 50% 50%;
 }
 /*header,*/
 /*main,*/
-/*footer {*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    align-items: center;*/
-/*}*/
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 /*.footer {*/
 /*    color: gray;*/
 /*}*/
+/*HEXAGON  *//*HEXAGON  *//*HEXAGON  *//*HEXAGON  *//*HEXAGON  *//*HEXAGON  *//*HEXAGON  *//*HEXAGON  *//*HEXAGON  *//*HEXAGON  */
+
+/*WYKASOWANIE TEJ KLASY POWODUJE ŻE MOŻNA KLIKAĆ NA LINKI np."PSCPS  SUPPLIERS LIST"*/
+/*.rowhex {*/
+/*    width: 100%;*/
+/*    margin: auto;*/
+/*    padding-left: 5px;*/
+/*    padding-right: 5px;*/
+/*    padding-top: 40px;*/
+/*    padding-bottom: 40px;*/
+/*    position: relative;*/
+/*    z-index: -1;*/
+/*}*/
+a:link_hex{
+    text-decoration:  none !important;
+    color:black !important;
+
+text-decoration-color: cornsilk;}
+
+ a:link_hex:visited{
+    text-decoration: none !important;
+}
+ #link_hex1,#link_hex2{
+     color: cornsilk;
+ }
+
+
+.heading6 {
+    color: #4d4d4d;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 1.7em;
+}
+.heading6 {
+    color: #4d4d4d;
+    font-weight: 600;
+    font-size: 3em;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+    margin-top: 0px;
+}
+.hexcontainer {
+    display: flex;
+    margin: auto;
+    width: 310px;
+}
+.hexcontainer {
+    display: flex;
+    margin: auto;
+    width: 790px;
+}
+
+.hexcontainer {
+    display: flex;
+    margin: auto;
+    width: 450px;
+}
+.hexcontainer {
+    display: flex;
+    margin: auto;
+    width: 1040px;
+}
+
+.hextitlecontainer {
+    width: 115px;
+    text-align: center;
+}
+.hextitlecontainer {
+    width: 80px;
+    text-align: center;
+}
+.hextitlecontainer {
+    width: 197.5px;
+    text-align: center;
+}
+.hextitlecontainer {
+    width: 210px;
+    text-align: center;
+}
+.hextitle {
+    margin-top: 107px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+.hextitle {
+    margin-top: 47px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+.hextitle {
+    margin-top: 52px;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.hextitle {
+    margin-top: 160px;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+.hexagon {
+    position: relative;
+    width: 80px;
+    height: 43.21px;
+    margin: 82.6px 2px;
+}
+.hexagon:before,
+.hexagon:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 38px solid transparent;
+    border-right: 38px solid transparent;
+}
+.hexagon {
+    position: relative;
+    width: 115px;
+    height: 61.21px;
+    margin: 90.6px 2px;
+}
+.hexagon:before,
+.hexagon:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 55.5px solid transparent;
+    border-right: 55.5px solid transparent;
+}
+.hexagon {
+    position: relative;
+    width: 190.5px;
+    height: 107.5px;
+    margin: 99.6px 3.5px;
+}
+.hexagon:before,
+.hexagon:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 95px solid transparent;
+    border-right: 95px solid transparent;
+}
+.hexagon {
+    position: relative;
+    width: 300px;
+    height: 173.21px;
+    margin: 86.6px 5px;
+}
+.hexagon:before,
+.hexagon:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+}
+.hexagonleft:before {
+    bottom: 100%;
+    border-bottom: 25.6px solid #4f7b9f;
+}
+.hexagonleft:after {
+    top: 100%;
+    width: 0;
+    border-top: 25.6px solid #263b4c;
+}
+.hexagonleft {
+    background: #4f7b9f;
+    background: linear-gradient(180deg, #4f7b9f 0%, #263b4c 100%);
+}
+.hexagonleft {
+    background: #4f7b9f;
+    background: linear-gradient(180deg, #4f7b9f 0%, #263b4c 100%);
+}
+.hexagonleft:before {
+    bottom: 100%;
+    border-bottom: 39.6px solid #4f7b9f;
+}
+.hexagonleft:after {
+    top: 100%;
+    width: 0;
+    border-top: 39.6px solid #263b4c;
+}
+.hexagonleft {
+    background: #4f7b9f;
+    background: linear-gradient(180deg, #4f7b9f 0%, #263b4c 100%);
+}
+.hexagonleft:before {
+    bottom: 100%;
+    border-bottom: 56.6px solid #4f7b9f;
+}
+.hexagonleft:after {
+    top: 100%;
+    width: 0;
+    border-top: 56.6px solid #263b4c;
+}
+
+.hexagonleft {
+    background: #4f7b9f;
+    background: linear-gradient(180deg, #4f7b9f 0%, #263b4c 100%);
+}
+.hexagonleft:before {
+    bottom: 100%;
+    border-bottom: 86.6px solid #4f7b9f;
+}
+.hexagonleft:after {
+    top: 100%;
+    width: 0;
+    border-top: 86.6px solid #263b4c;
+}
+.hexp {
+    text-align: center;
+    color: white;
+    font-size: 9.5px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+.hexp {
+    text-align: center;
+    color: white;
+    font-size: 13.5px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+.hexp {
+    text-align: center;
+    color: white;
+    font-size: 18.5px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+.hexp {
+    text-align: center;
+    color: white;
+    font-size: 28px;
+}
+.hexpmargin {
+    margin-top: 2px;
+}
+.hexpmargin {
+    margin-top: 12px;
+}
+.hexpmargin {
+    margin-top: 30px;
+}
+.hexpmargin {
+    margin-top: 60px;
+}
+.hexcontainer2 {
+    display: flex;
+    margin: auto;
+    width: 240px;
+    margin-top: -138px;
+}
+.hexcontainer2 {
+    display: flex;
+    margin: auto;
+    width: 345px;
+    margin-top: -138px;
+}
+.hexcontainer2 {
+    display: flex;
+    margin: auto;
+    width: 592.5px;
+    margin-top: -136px;
+}
+.hexcontainer2 {
+    display: flex;
+    margin: auto;
+    width: 930px;
+    margin-top: -80px;
+}
+.hexagonright {
+    background: #503d99;
+    background: linear-gradient(180deg, #503d99 0%, #c63d66 100%);
+}
+.hexagonright:before {
+    bottom: 100%;
+    border-bottom: 25.6px solid #503d99;
+}
+.hexagonright:after {
+    top: 100%;
+    width: 0;
+    border-top: 25.6px solid #c63d66;
+}
+.hexagonright {
+    background: #503d99;
+    background: linear-gradient(180deg, #503d99 0%, #c63d66 100%);
+}
+.hexagonright:before {
+    bottom: 100%;
+    border-bottom: 39.6px solid #503d99;
+}
+.hexagonright:after {
+    top: 100%;
+    width: 0;
+    border-top: 39.6px solid #c63d66;
+}
+.hexagonright {
+    background: #503d99;
+    background: linear-gradient(180deg, #503d99 0%, #c63d66 100%);
+}
+.hexagonright:before {
+    bottom: 100%;
+    border-bottom: 56.6px solid #503d99;
+}
+.hexagonright:after {
+    top: 100%;
+    width: 0;
+    border-top: 56.6px solid #c63d66;
+}
+.hexagonright {
+    background: #503d99;
+    background: linear-gradient(180deg, #503d99 0%, #c63d66 100%);
+}
+.hexagonright:before {
+    bottom: 100%;
+    border-bottom: 86.6px solid #503d99;
+}
+.hexagonright:after {
+    top: 100%;
+    width: 0;
+    border-top: 86.6px solid #c63d66;
+}
+.hexpmargin2 {
+    margin-top: 0px;
+}
+.hexpmargin2 {
+    margin-top: 8px;
+}
+.hexpmargin2 {
+    margin-top: 22px;
+}
+.hexpmargin2 {
+    margin-top: 42px;
+}
+.hexcontainer3 {
+    display: flex;
+    margin: auto;
+    width: 160px;
+    margin-top: -137px;
+}
+.hexcontainer3 {
+    display: flex;
+    margin: auto;
+    width: 230px;
+    margin-top: -137px;
+}
+.hexcontainer3 {
+    display: flex;
+    margin: auto;
+    width: 395px;
+    margin-top: -137px;
+}
+.hexcontainer3 {
+    display: flex;
+    margin: auto;
+    width: 620px;
+    margin-top: -80px;
+}
+/*HEXAGON  */

@@ -27,7 +27,7 @@
     <nav id="nav" class="flex font-poppins fixed-top">
         <img src="../static/PSAPT_logo.jpg" th:src="@{/PSAPT_logo.jpg}" alt="Logo PRIMA" width="122" height="81">
                 <div class="nav-brand">
-                    <a href="/" class="text-dark text-md font-bold" >&nbsp &nbsp  QUALITY SUPPLIERS MANAGEMENT</a>
+                    <a href="/secured" class="text-dark text-md font-bold" >&nbsp &nbsp  QUALITY SUPPLIERS MANAGEMENT</a>
         </div>
         <div id="toggle-btn" class="toggle-btn">
             <button class="btn">
@@ -39,10 +39,13 @@
         <div id="nav_collapse"  class="collapse flex-grow">
             <ul class="flex">
                 <li>
-                    <a href="/" class="link"> Home </a>
+                    <a href="/secured" class="link"> Home </a>
                 </li>
                 <li>
-                    <a th:href="@{/suppliers}" class="link"> Suppliers </a>
+                    <a th:href="@{/suppliersPSCPS}" class="link"> Suppliers PSCPS</a>
+                </li>
+                <li>
+                    <a th:href="@{/suppliersPSAPT}" class="link"> Suppliers PSAPT</a>
                 </li>
                 <li>
                     <a th:href="@{/components_PSCPS}" class="link"> Components PSCPS </a>
@@ -68,7 +71,10 @@
     </nav>
 </header>   
 <footer th:fragment="footer">
-    <p class="footer">Skleppik - all rights reserved</p>
+    <br>
+    <br>
+
+    <p class="footer">Supplier management - all rights reserved</p>
 </footer>
 </body>
 </html>

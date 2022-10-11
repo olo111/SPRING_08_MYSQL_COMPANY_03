@@ -1,5 +1,5 @@
 
-#  dla uruchomienia na dockerze
+#  dla uruchomienia na dockerze n1
 #spring:
 #  datasource:
 #    driver-class-name: com.mysql.cj.jdbc.Driver
@@ -9,11 +9,22 @@
 #  liquibase:
 #    contexts: prod
 
-#  dla uruchomienia na dockerze
+#  dla uruchomienia na dockerze  n2
+#spring:
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://127.0.0.1:3306/prima_sosnowiec
+#    username: root
+#    password: 11mysql11
+#  liquibase:
+#    contexts: prod
+
+
+#  dla uruchomienia na dysku moim
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/prima_sosnowiec
+    url: jdbc:mysql://localhost:3306/prima_sosnowiec
     username: root
     password: 11mysql11
   liquibase:

@@ -1,4 +1,3 @@
-CREATE TABLE IF NOT EXISTS application_user;
 INSERT INTO
     application_user (first_name, last_name, email, password)
 VALUES
@@ -8,7 +7,7 @@ VALUES
     ('John', 'Abacki', 'john@example.com', '{MD5}{AlZCLSQMMNLBS5mEO0kSem9V3mxplC6cTjWy9Kj/Gxs=}d9007147eb3a5f727b2665d647d36e35'),
     -- java_lover@example.com / javaiscool
     ('Marek', 'Zalewski', 'java_lover@example.com', '{argon2}$argon2id$v=19$m=4096,t=3,p=1$YBBBwx+kfrNgczYDcLlWYA$LEPgdtfskoobyFtUWTMejaE5SBRyieHYbiE5ZmFKE7I');
-CREATE TABLE IF NOT EXISTS user_role;
+
 INSERT INTO
     user_role (name, description)
 VALUES

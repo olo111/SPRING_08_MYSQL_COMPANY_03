@@ -23,15 +23,15 @@
 
 <div ><p><a class="link1 text-center text-uppercase text-white " th:href = "@{/secured}" type="button" >Go Back to Home Page</a></p>
     </div>
-<div ><p><a class="link2 text-center text-uppercase text-white " th:href = "@{/classification}" type="button" > classification in chart </a></p>
+<div ><p><a class="link2 text-center text-uppercase text-white " th:href = "@{/classificationPSAPT}" type="button" > classification in chart </a></p>
 </div>
-<div ><p><a class="link3 text-center text-uppercase text-white " th:href = "@{/getClassification}" type="button" > classification </a></p>
+<div ><p><a class="link3 text-center text-uppercase text-white " th:href = "@{/getClassificationPSAPT}" type="button" > classification </a></p>
 </div>
 <div class="container text-center">
     <br></br>
     <br>
 
-    <div><h1> PRIMA SOSNOWIEC SUPPLIERS  List  </h1>  <br>    </div>
+    <div><h1> PRIMA SOSNOWIEC PSAPT  SUPPLIERS  LIST  </h1>  <br>    </div>
     <div>
         <table class="table" >
 
@@ -40,7 +40,8 @@
                 <th>ID </th>
                 <th>Name  </th>
                 <th>id_Sap  </th>
-                <th>classification  </th>
+                <th >
+                    <a class=" text-center text-uppercase text-white " href="../classification/classific"  >classification</a>&nbsp;</th>
                 <th>totalScore  </th>
                 
             </tr>
@@ -50,7 +51,7 @@
                 <tr>
                     <td th:class="${supplier.totalScore gt 90} ? 'above-avg' : (${supplier.totalScore gt 80} ? 'just-avg' : 'below-avg')">[[${supplier.id}]]</td>
                     <td th:class="${supplier.totalScore gt 90} ? 'above-avg-link' : (${supplier.totalScore gt 80} ? 'just-avg-link' : 'below-avg-link')">
-                        <a class=" text-center text-uppercase text-white " th:href="@{'/suppliers/show/'+${supplier.id_Sap}}" >[[${supplier.name}]]</a>&nbsp;
+                        <a class=" text-center text-uppercase text-white " th:href="@{'/suppliersPSAPT/show/'+${supplier.id_Sap}}" >[[${supplier.name}]]</a>&nbsp;
                     </td>
                     <!--            <td><a th:href="@{'/suppliers/show/'+${supplier.id_Sap}}"></a>[[${supplier.name}]]</td>-->
                     <td th:class="${supplier.totalScore gt 90} ? 'above-avg' : (${supplier.totalScore gt 80} ? 'just-avg' : 'below-avg')">[[${supplier.id_Sap}]]</td>
