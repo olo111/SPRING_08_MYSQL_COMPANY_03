@@ -19,7 +19,7 @@ public class CompanyApplication {
 //
 //
 //
-new Scanner(System.in).nextLine(); // po to, aby program zakończył swoje działanie dopiero po wciśnięciu entera.
+//new Scanner(System.in).nextLine(); // po to, aby program zakończył swoje działanie dopiero po wciśnięciu entera.
     }
 
 }
