@@ -29,7 +29,8 @@ class SecurityConfig {
     public WebSecurityCustomizer webSecurityCustomizer() {
         return web -> web.ignoring().mvcMatchers(
                 "/img/*.*",
-                "images/*.*",
+                "/images/*.*",
+                "static/*.*",
                 "/styles/*.*",
                 "/static/*.css",
                 "/static/*.jpg",
