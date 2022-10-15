@@ -32,7 +32,7 @@ build/
 ### VS Code ###
 .vscode/
 ### foldery dodane do .gitignore recznie
-images
+#images
 
 main.rar
 3DL_exampl.jpg
