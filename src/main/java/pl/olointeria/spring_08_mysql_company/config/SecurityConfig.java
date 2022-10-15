@@ -30,7 +30,6 @@ class SecurityConfig {
         return web -> web.ignoring().mvcMatchers(
                 "/img/*.*",
                 "images/*.*",
-
                 "/styles/*.*",
                 "/static/*.css",
                 "/static/*.jpg",
