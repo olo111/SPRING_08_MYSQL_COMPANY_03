@@ -25,7 +25,7 @@
             type: 'GET',
             dataType:"json",
             contentType:"application/json",
-            url:'http://localhost:8080/api/SupPSCPSClassification',
+            url:'http://194.182.80.100:8080/api/SupPSCPSClassification',
             success:function(result){
                 google.charts.load('current',{
                     'packages':['corechart']
@@ -76,7 +76,7 @@
 <!--        <div id="app" >Nothing yet</div>-->
 <p class="table_cl" ></p>
 <script type="text/javascript">
-    fetch('http://localhost:8080/api/SupPSCPSClassification')
+    fetch('http://194.182.80.100:8080/api/SupPSCPSClassification')
         .then(function(response){
             return response.json();
         })

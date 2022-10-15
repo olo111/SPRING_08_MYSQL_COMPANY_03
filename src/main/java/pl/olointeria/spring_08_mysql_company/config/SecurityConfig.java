@@ -31,7 +31,13 @@ class SecurityConfig {
                 "/img/**",
                 "/styles/**",
                 "/static/*.css",
-                "/static/*.jpg"
+                "/static/*.jpg",
+                "/static/*.png",
+                "/static/*.webp",
+                "/static/img/*.*",
+                "/static/img/*.jpg",
+                "/static/img/*.png",
+                "/static/img/*.webp"
         );
     }
 
