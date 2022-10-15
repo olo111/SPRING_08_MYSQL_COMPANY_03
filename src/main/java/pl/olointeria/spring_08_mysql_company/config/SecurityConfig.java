@@ -28,8 +28,10 @@ class SecurityConfig {
     @Bean
     public WebSecurityCustomizer webSecurityCustomizer() {
         return web -> web.ignoring().mvcMatchers(
-                "/img/**",
-                "/styles/**",
+                "/img/*.*",
+                "images/*.*",
+
+                "/styles/*.*",
                 "/static/*.css",
                 "/static/*.jpg",
                 "/static/*.png",
@@ -37,7 +39,13 @@ class SecurityConfig {
                 "/static/img/*.*",
                 "/static/img/*.jpg",
                 "/static/img/*.png",
-                "/static/img/*.webp"
+                "/static/img/*.webp",
+                "/static/images/brand/*.webp",
+                "/static/images/brand/*.*",
+                "/static/images/brand/*.jpg",
+                "/static/images/brand/*.png"
+
+
         );
     }
 
