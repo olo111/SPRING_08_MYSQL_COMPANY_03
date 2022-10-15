@@ -252,7 +252,7 @@ public class SupplierPSCPSController {
         return "classification/delays";
     }
 
-    @RequestMapping(value={"/classification/interference","/suppliersPSCPS/classification/interference"})
+    @GetMapping(value={"/classification/interference","/suppliersPSCPS/classification/interference"})
     public String interference(Model model) {
         return "classification/interference";
     }
