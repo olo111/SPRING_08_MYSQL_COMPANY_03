@@ -30,10 +30,22 @@
 #  liquibase:
 #    contexts: prod
 
+
+#  dla uruchomienia na serwerze nadia
+#spring:
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://194.182.80.100:3306/prima_sosnowiec
+#    username: root
+#    password: 11mysql11
+#  liquibase:
+#    contexts: prod
+
+
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://194.182.80.100:3306/prima_sosnowiec
+    url: jdbc:mysql://mysql:3306/prima_sosnowiec
     username: root
     password: 11mysql11
   liquibase:
