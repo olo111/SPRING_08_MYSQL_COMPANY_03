@@ -122,6 +122,7 @@ ul{
 .text-lg{
     font-size :1.8em;
     line-height: 2.2rem;
+    text-align:center;
 }
 .text-xl{
     font-size: 3em;
@@ -1007,10 +1008,12 @@ text-decoration-color: cornsilk;}
     text-align: center;
 }
 .hextitle {
+    padding-top: 1rem;
     margin-top: 107px;
     font-size: 24px;
     font-weight: bold;
     text-align: center;
+    
 }
 .hextitle {
     margin-top: 47px;
