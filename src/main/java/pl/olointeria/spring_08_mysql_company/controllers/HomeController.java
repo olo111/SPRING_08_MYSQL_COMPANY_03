@@ -14,4 +14,8 @@ class HomeController {
     String home() {
         return "index";
     }
+    @GetMapping("/archives")
+    String archives() {
+        return "archives/archives";
+    }
 }
