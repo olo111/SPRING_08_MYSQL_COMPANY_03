@@ -1007,6 +1007,7 @@ text-decoration-color: cornsilk;}
     text-align: center;
 }
 .hextitle {
+    padding-top: 10rem;
     margin-top: 107px;
     font-size: 24px;
     font-weight: bold;

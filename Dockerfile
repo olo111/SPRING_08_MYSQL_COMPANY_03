@@ -6,5 +6,5 @@ RUN mvn package
 
 FROM openjdk:17.0.2-slim-buster
 EXPOSE 8080
-COPY --from=MAVEN_BUILD /target/SPRING_08_MYSQL_COMPANY*.jar /app.jar
+COPY --from=MAVEN_BUILD /target/Assessment*.jar /app.jar
 ENTRYPOINT ["java","-jar","/app.jar"]
